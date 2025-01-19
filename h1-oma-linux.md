@@ -63,7 +63,7 @@ Eli ylälaidasta painoin "Devices" sieltä "Insert Guest Additions CD Image"
 
 ![Add file: Upload](vbox.png)
 
-Tämän jälkeen ylälaidasta "Applications -> File Manager
+Tämän jälkeen ylälaidasta "Applications -> File Manager -> VBox_GAs_7.1.4 ja terminaaliin seuraavat komennot $ cd /media/*/VBox* -> $ ls -> $ sudo bash VBoxLinuxAdditions.run
 
 ![Add file: Upload](asennettu_paivitetty.png)
 
