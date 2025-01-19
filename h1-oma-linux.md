@@ -35,3 +35,4 @@ Virtuaalikoneen ja linuxin asennus onnistui ilman ongelmia Tero Karvisen sivusto
 
 ## Reference
 Karvinen, Tero 2025: Linux-palvelimet https://terokarvinen.com/2021/install-debian-on-virtualbox/
+The Free Software Foundation: https://www.gnu.org/philosophy/free-sw.html#fs-definition
