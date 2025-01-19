@@ -16,7 +16,26 @@ Asensin virtuaalikoneen ja linuxin seuraavaa lähdettä käyttäen: Karvinen, Te
 
 Käytin virtuaalikoneen asennukseen Oraclen VirtualBox manageria, jolla asensin virtuaalikoneen kannettavalle tietokoneelleni (Msi GE75 Raider 10sf), minkä käyttöjärjestelmänä toimii Windows 10 Home 64-bit. RAM-muistia koneessa on 16gb. Prosessori on Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz (12 CPUs), ~2.6GHz
 
-Virtuaalikoneen asensin seuraavilla spekseillä n. klo 17.
+Virtuaalikoneen asensin seuraavilla spekseillä n. klo 17:
+
+Name and Operating System
+Type: Linux
+Subtype: Debian
+Version: Debian (64-bit)
+
+Hardware:
+Memory Size: 4000 MB
+Processors: 2
+
+Hard Disk: 
+Create a Virtual Hard Disk Now
+Hard Disk size: 60 GB
+
+Hard Disk File Type and Variant
+VDI (VirtualBox Disk Image) - Pre-allovate Full Size (yes)
+
+Paina "Finish"
+
 ![Add file: Upload](virtuaalikone_tiedot.png)
 
 Seuraavaksi lisäsin virtuaalikoneeseen virtuaalilsen cd-levyn, jonka latasin seuraavalta sivustolta: https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/. Linkki löytyy aiemmin mainitusta lähteestä.
