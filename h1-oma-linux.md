@@ -18,7 +18,7 @@ Käytin virtuaalikoneen asennukseen Oraclen VirtualBox manageria, jolla asensin 
 
 ### Virtuaalikoneen asensin seuraavilla spekseillä n. klo 17:
 
-Name and Operating System
+#### Name and Operating System
 
 Type: Linux
 
@@ -26,13 +26,13 @@ Subtype: Debian
 
 Version: Debian (64-bit)
 
-Hardware:
+#### Hardware:
 
 Memory Size: 4000 MB
 
 Processors: 2
 
-Hard Disk: 
+#### Hard Disk: 
 
 Create a Virtual Hard Disk Now
 
