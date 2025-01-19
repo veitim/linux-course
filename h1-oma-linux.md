@@ -19,19 +19,27 @@ Käytin virtuaalikoneen asennukseen Oraclen VirtualBox manageria, jolla asensin 
 Virtuaalikoneen asensin seuraavilla spekseillä n. klo 17:
 
 Name and Operating System
+
 Type: Linux
+
 Subtype: Debian
+
 Version: Debian (64-bit)
 
 Hardware:
+
 Memory Size: 4000 MB
+
 Processors: 2
 
 Hard Disk: 
+
 Create a Virtual Hard Disk Now
+
 Hard Disk size: 60 GB
 
 Hard Disk File Type and Variant
+
 VDI (VirtualBox Disk Image) - Pre-allovate Full Size (yes)
 
 Paina "Finish"
@@ -43,11 +51,17 @@ Seuraavaksi lisäsin virtuaalikoneeseen virtuaalilsen cd-levyn, jonka latasin se
 ![Add file: Upload](iso_tiedosto.png)
 
 Virtuaalikone toimii, joten seuraavaksi rupesin asentamaan debiania klo. 18. Askel askeleelta noudatin ohjeita.
+
 Debian Installeriin laitoin seuraavat asetukset:
+
 Language: American/English
+
 Location: Suomi/Helsinki
+
 Keyboard: Finnish
+
 Partitions: Erase Disk: Yes, Encrypt: No, Bootloader location: Master Boot Record of VBOX HARDDISK(/dev/sda)
+
 Users: nimi, käyttäjä, tietokoneen nimi ja salasana.
 
 ![Add file: Upload](debian_asennus.png)
