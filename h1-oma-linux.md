@@ -43,6 +43,12 @@ Seuraavaksi lisäsin virtuaalikoneeseen virtuaalilsen cd-levyn, jonka latasin se
 ![Add file: Upload](iso_tiedosto.png)
 
 Virtuaalikone toimii, joten seuraavaksi rupesin asentamaan debiania klo. 18. Askel askeleelta noudatin ohjeita.
+Debian Installeriin laitoin seuraavat asetukset:
+Language: American/English
+Location: Suomi/Helsinki
+Keyboard: Finnish
+Partitions: Erase Disk: Yes, Encrypt: No, Bootloader location: Master Boot Record of VBOX HARDDISK(/dev/sda)
+Users: nimi, käyttäjä, tietokoneen nimi ja salasana.
 
 ![Add file: Upload](debian_asennus.png)
 
@@ -50,7 +56,10 @@ Asennus näytti onnistuvan
 ![Add file: Upload](login.png)
 
 Seuraavaksi kirjauduin järjestelmään ja varmistin toimivuuden käynnistämällä verkkoselaimen.
-Tämän jälkeen avasin terminaalin, jossa suoritin seuraavat komennot: $ sudo apt-get update, $ sudo apt-get -y dist-upgrade, $ sudo apt-get -y install ufw, $ sudo ufw enable. Komennoilla päivitettiin järjestelmä ja asennettiin/otettiin palomuuri käyttöön. Seuraavaksi käynnistin virtuaalikoneen uudestaan. Jonka jälkeen asensin Guest Additionin ohjeita seuraamalla. Kaikki onnistui ja toimii niinkuin pitääkin.
+Tämän jälkeen avasin terminaalin, jossa suoritin seuraavat komennot: $ sudo apt-get update, $ sudo apt-get -y dist-upgrade, $ sudo apt-get -y install ufw, $ sudo ufw enable. Komennoilla päivitettiin järjestelmä ja asennettiin/otettiin palomuuri käyttöön. Seuraavaksi käynnistin virtuaalikoneen uudestaan. 
+
+Seuraavaksi asensin Guest Additionin.
+Eli ylälaidasta painoin "Devices" sieltä "Insert Guest Additions CD Image"
 
 ![Add file: Upload](asennettu_paivitetty.png)
 
