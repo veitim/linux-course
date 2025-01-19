@@ -1,4 +1,12 @@
-# Linuxin asennus virtuaalikoneelle
+# h1 Oma Linux
+## What is Free Software artikkelin tiivistelmä.
+
+Neljä välttämtöntä vapautta ovat seuraavat: vapaus käyttää ohjelmaa miten haluaa, vapaus tutkia ja muokata ohjelmaa, vapaus jakaa ohjelmaa sekä vapaus jakaa sinun muokkaamaa ohjelmaa muille.
+Eli saat käyttää ohjelmaa miten haluat. Saat tehdä siihen muokkauksia miten haluat. Saat jakaa sitä sellaisenaan sekä saat jakaa muokkaamaasi versiota miten haluat. Muokattu versio pitää olla avoin muille käyttäjille. 
+
+Vapaat ohjelmat voivat olla kaupallisia. Eli näitä saa käyttää kaupallisesti, mutta koodin pitää olla avointa.
+
+## Linuxin asennus virtuaalikoneelle
 
 Asensin virtuaalikoneen ja linuxin seuraavaa lähdettä käyttäen: Karvinen, Tero: 2025-01-14 oppitunnit Linux-palvelimet -kurssi. https://terokarvinen.com/2021/install-debian-on-virtualbox/
 
@@ -22,3 +30,8 @@ Seuraavaksi kirjauduin järjestelmään ja varmistin toimivuuden käynnistämäl
 Tämän jälkeen avasin terminaalin, jossa suoritin seuraavat komennot: $ sudo apt-get update, $ sudo apt-get -y dist-upgrade, $ sudo apt-get -y install ufw, $ sudo ufw enable. Komennoilla päivitettiin järjestelmä ja asennettiin/otettiin palomuuri käyttöön. Seuraavaksi käynnistin virtuaalikoneen uudestaan. Jonka jälkeen asensin Guest Additionin ohjeita seuraamalla. Kaikki onnistui ja toimii niinkuin pitääkin.
 
 ![Add file: Upload](asennettu_paivitetty.png)
+
+Virtuaalikoneen ja linuxin asennus onnistui ilman ongelmia Tero Karvisen sivustolta löytyviä ohjeita noudattamalla. Aloitin asentelut klo. 17.00 ja lopetin 19.30. Asenteluiden ja raportin luomiseen meni noin tunti (välissä tuli tehtyä muita asioita).
+
+## Reference
+Karvinen, Tero 2025: Linux-palvelimet https://terokarvinen.com/2021/install-debian-on-virtualbox/
