@@ -20,3 +20,5 @@ Asennus näytti onnistuvan
 
 Seuraavaksi kirjauduin järjestelmään ja varmistin toimivuuden käynnistämällä verkkoselaimen.
 Tämän jälkeen avasin terminaalin, jossa suoritin seuraavat komennot: $ sudo apt-get update, $ sudo apt-get -y dist-upgrade, $ sudo apt-get -y install ufw, $ sudo ufw enable. Komennoilla päivitettiin järjestelmä ja asennettiin/otettiin palomuuri käyttöön. Seuraavaksi käynnistin virtuaalikoneen uudestaan. Jonka jälkeen asensin Guest Additionin ohjeita seuraamalla. Kaikki onnistui ja toimii niinkuin pitääkin.
+
+![Add file: Upload](asennettu_paivitetty.png)
