@@ -14,3 +14,6 @@ Seuraavaksi lisäsin virtuaalikoneeseen virtuaalilsen cd-levyn, jonka latasin se
 Virtuaalikone toimii, joten seuraavaksi rupesin asentamaan debiania klo. 18. Askel askeleelta noudatin ohjeita.
 
 ![Add file: Upload](debian_asennus.png)
+
+Asennus näytti onnistuvan
+![Add file: Upload](login.png)
