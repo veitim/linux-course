@@ -52,7 +52,7 @@ Seuraavaksi lisäsin virtuaalikoneeseen virtuaalilsen cd-levyn, jonka latasin se
 
 ### Virtuaalikone toimii, joten seuraavaksi rupesin asentamaan debiania klo. 18. Askel askeleelta noudatin ohjeita.
 
-###Debian Installeriin laitoin seuraavat asetukset:
+### Debian Installeriin laitoin seuraavat asetukset:
 
 Language: American/English
 
