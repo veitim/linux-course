@@ -61,6 +61,10 @@ Tämän jälkeen avasin terminaalin, jossa suoritin seuraavat komennot: $ sudo a
 Seuraavaksi asensin Guest Additionin.
 Eli ylälaidasta painoin "Devices" sieltä "Insert Guest Additions CD Image"
 
+![Add file: Upload](vbox.png)
+
+Tämän jälkeen ylälaidasta "Applications -> File Manager
+
 ![Add file: Upload](asennettu_paivitetty.png)
 
 Virtuaalikoneen ja linuxin asennus onnistui ilman ongelmia Tero Karvisen sivustolta löytyviä ohjeita noudattamalla. Aloitin asentelut klo. 17.00 ja lopetin 19.30. Asenteluiden ja raportin luomiseen meni noin tunti (välissä tuli tehtyä muita asioita).
