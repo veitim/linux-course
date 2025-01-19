@@ -16,7 +16,7 @@ Asensin virtuaalikoneen ja linuxin seuraavaa lähdettä käyttäen: Karvinen, Te
 
 Käytin virtuaalikoneen asennukseen Oraclen VirtualBox manageria, jolla asensin virtuaalikoneen kannettavalle tietokoneelleni (Msi GE75 Raider 10sf), minkä käyttöjärjestelmänä toimii Windows 10 Home 64-bit. RAM-muistia koneessa on 16gb. Prosessori on Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz (12 CPUs), ~2.6GHz
 
-###Virtuaalikoneen asensin seuraavilla spekseillä n. klo 17:
+### Virtuaalikoneen asensin seuraavilla spekseillä n. klo 17:
 
 Name and Operating System
 
@@ -50,7 +50,7 @@ Seuraavaksi lisäsin virtuaalikoneeseen virtuaalilsen cd-levyn, jonka latasin se
 
 ![Add file: Upload](iso_tiedosto.png)
 
-###Virtuaalikone toimii, joten seuraavaksi rupesin asentamaan debiania klo. 18. Askel askeleelta noudatin ohjeita.
+### Virtuaalikone toimii, joten seuraavaksi rupesin asentamaan debiania klo. 18. Askel askeleelta noudatin ohjeita.
 
 ###Debian Installeriin laitoin seuraavat asetukset:
 
