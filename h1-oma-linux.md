@@ -1,4 +1,8 @@
 # h1 Oma Linux
+## Raportin kirjoittaminen
+
+Raportin täytyy olla toistettavissa sekä täsmällinen. Eli kerrotaan mitä ollaan tehty jä millä, jotta ulkopuolinen voi toistaa samat askeleet. Raportin täytyy myös olla helppolukuinen, sillä vaikealukuista raporttia on hankala sisäistää. Raportissa täytyy myös olla lähdeviittaukset eikä vilppiä saa harrastaa.
+
 ## What is Free Software artikkelin tiivistelmä.
 
 Neljä välttämtöntä vapautta ovat seuraavat: vapaus käyttää ohjelmaa miten haluaa, vapaus tutkia ja muokata ohjelmaa, vapaus jakaa ohjelmaa sekä vapaus jakaa sinun muokkaamaa ohjelmaa muille.
@@ -10,7 +14,7 @@ Vapaat ohjelmat voivat olla kaupallisia. Eli näitä saa käyttää kaupallisest
 
 Asensin virtuaalikoneen ja linuxin seuraavaa lähdettä käyttäen: Karvinen, Tero: 2025-01-14 oppitunnit Linux-palvelimet -kurssi. https://terokarvinen.com/2021/install-debian-on-virtualbox/
 
-Käytin virtuaalikoneens asennukseen Oraclen VirtualBox manageria, jolla asensin virtuaalikoneen kannettavalle tietokoneelleni (Msi GE75 Raider 10sf), minkä käyttöjärjestelmänä toimii Windows 10 Home 64-bit.
+Käytin virtuaalikoneen asennukseen Oraclen VirtualBox manageria, jolla asensin virtuaalikoneen kannettavalle tietokoneelleni (Msi GE75 Raider 10sf), minkä käyttöjärjestelmänä toimii Windows 10 Home 64-bit. RAM-muistia koneessa on 16gb. Prosessori on Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz (12 CPUs), ~2.6GHz
 
 Virtuaalikoneen asensin seuraavilla spekseillä n. klo 17.
 ![Add file: Upload](virtuaalikone_tiedot.png)
