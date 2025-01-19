@@ -34,6 +34,6 @@ Tämän jälkeen avasin terminaalin, jossa suoritin seuraavat komennot: $ sudo a
 Virtuaalikoneen ja linuxin asennus onnistui ilman ongelmia Tero Karvisen sivustolta löytyviä ohjeita noudattamalla. Aloitin asentelut klo. 17.00 ja lopetin 19.30. Asenteluiden ja raportin luomiseen meni noin tunti (välissä tuli tehtyä muita asioita).
 
 ## Reference
-Karvinen, Tero 2025: Linux-palvelimet https://terokarvinen.com/2021/install-debian-on-virtualbox/
+Karvinen, Tero 2021: Install Debian on Virtualbox https://terokarvinen.com/2021/install-debian-on-virtualbox/
 
 The Free Software Foundation: https://www.gnu.org/philosophy/free-sw.html#fs-definition
