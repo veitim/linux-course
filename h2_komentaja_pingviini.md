@@ -47,6 +47,23 @@ Ei löytynyt, joten palasin "root/" hakemistoon "cd .." komentoa käyttäen ja k
 Hakemiston löysin palaamalla "root" hakemistoon. Tänne, kun kirjoitti "cd v" ja tupla tab, niin "var/" hakemisto jo tarjoutukin. Tämän jälkeen piti vain lisätä "log/" ja enter.
 ![c](images/var_log2.png)
 
-### d)
+### d) Grep-komento
+Aloin tekemään tätä klo. 21.30
+
+Teron Karvisen (https://terokarvinen.com/linux-palvelimet/) materiaalin pohjalta navigoin seuraavalle sivustolle "https://man7.org/linux/man-pages/man1/grep.1.html" Ja rupesin testailemaan grep-komentoa.
+Tein grep-komentoa varten itseäni helpottavan tiedoston microlla documents/h2/ hakemistoon nimeltä "testaaja"
+![c](images/testaaja)
+
+Alkuun en tahtonut tajuta miksen saa mitään komennosta irti. Joten avasin youtuben ja täältä seuraavasta videosta sain vähän työkaluja grepin käyttöön "https://www.youtube.com/watch?v=Tc_jntovCM0"
+
+Hoksasinkin, etten ollut käyttänyt greppiä oikein. Eli olin yrittänyt hakea esim. -c (countilla) en mitään tiedostosta testaaja. komennolla "grep -c testaaja"
+
+Hetken hämmästeltyäni tajusin sitten hakea jotain tiedostosta.
+Käytin seuraavia komentoja:
+grep mansikka testaaja
+grep -c mansikka testaaja
+grep ma testaaja
+![grep](images/grep)
+
 ### f)
 
