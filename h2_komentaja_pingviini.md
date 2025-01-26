@@ -72,7 +72,6 @@ ALoitin tämän osion klo. 22.00
 ### f)
 
 ## Lähteet
-Seuraavia lähteitä on käytetty:
 
 https://terokarvinen.com/2020/command-line-basics-revisited/
 
