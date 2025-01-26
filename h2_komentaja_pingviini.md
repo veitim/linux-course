@@ -25,7 +25,7 @@ Aloitin tämän osion kello 20.20
 "/home/" Löytyi seuraavasti:
 ![c](images/home.png)
 
-"/home/timov/" Seuraavasti, cd timov/, jos ollaan home/ hakemistossa. Polun voi tarkistaa "$ pwd" komennolla.
+"/home/timov/" Seuraavasti, cd timov/, jos ollaan home/ hakemistossa. Polun voi tarkistaa "$ pwd" komennolla. Yllä olevassa kuvassa ollaan home/ hakemistossa.
 
 "/etc/" löytyi siten, että palasin root polkuun käyttämällä "$ cd .." komentoa kahdesti.
 
