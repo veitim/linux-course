@@ -21,23 +21,31 @@ Aloitin tämän osion kello 20.20
 
 Tärkeät kansiot löytyivät seuraavasta osoitteesta: "https://terokarvinen.com/2020/command-line-basics-revisited/"
 
-"/" Root polku löytyi seuraavasti:
+#### "/" 
+Root polku löytyi seuraavasti:
 ![c](images/root.png)
 
-"/home/" Löytyi seuraavasti:
+#### "/home/" 
+Löytyi seuraavasti:
 ![c](images/home.png)
 
-"/home/timov/" Seuraavalla komennolla "cd timov/", jos ollaan home/ hakemistossa. Polun voi tarkistaa "pwd" komennolla. Yllä olevassa kuvassa ollaan home/ hakemistossa.
+#### "/home/timov/" 
+Löytyi komennolla "cd timov/"
 
-"/etc/" löytyi siten, että palasin "root" hakemistoon käyttämällä "cd .." komentoa kahdesti. Ja täältä "ls" komennolla pystyi näkemään, että täällä sijaitsee "etc/" hakemisto. Tähän navigoin komennolla "cd etc/"
+#### "/etc/" 
+löytyi siten, että palasin "root" hakemistoon käyttämällä "cd .." komentoa kahdesti. Ja täältä "ls" komennolla pystyi näkemään, että täällä sijaitsee "etc/" hakemisto. Tähän navigoin komennolla "cd etc/"
 ![c](images/root.png)
 
-"/media/" Hakemistoon menin seuraavasti. Aloitin siten, että tarkistin löytyykö "etc/" hakemistosta media kansiota kirjoittamalla komentotulkkiin "ls m" ja painamalla "tab" painiketta kahdesti.
+#### "/media/" 
+Hakemistoon menin seuraavasti. Aloitin siten, että tarkistin löytyykö "etc/" hakemistosta media kansiota kirjoittamalla komentotulkkiin "ls m" ja painamalla "tab" painiketta kahdesti.
 ![c](images/searching.png)
 
 Ei löytynyt, joten palasin "root/" hakemistoon "cd .." komentoa käyttäen ja kirjoitin komentotulkkiin "ls m" ja painoin "tab" painiketta kahdesti. Täältä löytyi "media/" hakemisto, johon navigoin "cd media/" komentoa käyttäen.
 ![c](images/media.png)
 
+#### "var/log/"
+Hakemiston löysin palaamalla "root" hakemistoon. Tänne, kun kirjoitti "cd v" ja tupla tab, niin "var/" hakemisto jo tarjoutukin. Tämän jälkeen piti vain lisätä "log/" ja enter.
+![c](images/var_log2.png)
 
 ### d)
 ### f)
