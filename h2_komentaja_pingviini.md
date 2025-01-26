@@ -41,6 +41,9 @@ Seuraavaksi testailin juuri asentamiani ohjelmia. Aloitin Boxes ohjelmasta komen
 Seuraavaksi käytin wikittiä komennolla "$ wikit linux", mikä näytti seuraavalta:
 ![c](images/linux.png)
 
+Sekä komennolla "$ wikit newspaper", mikä naytti seuraavalta:
+![news](images/wikit.png)
+
 Ja viimeisenä käytin Figlettiä komennolla "$ figlet LINUX KURSSI" , mikä näytti seuraavalta:
 ![c](images/figlet.png)
 
