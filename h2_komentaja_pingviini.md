@@ -30,7 +30,7 @@ Löytyi seuraavasti:
 ![c](images/home.png)
 
 #### "/home/timov/" 
-Löytyi komennolla "cd timov/"
+"home/" hakemistosta siirryttiin "timov/ hakemistoon komennolla "cd timov/". 
 
 #### "/etc/" 
 löytyi siten, että palasin "root" hakemistoon käyttämällä "cd .." komentoa kahdesti. Ja täältä "ls" komennolla pystyi näkemään, että täällä sijaitsee "etc/" hakemisto. Tähän navigoin komennolla "cd etc/"
