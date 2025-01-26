@@ -23,7 +23,9 @@ Aloitin tämän osion kello 20.20
 ![c](images/root.png)
 
 "/home/" Löytyi seuraavasti
-!
+![c](images/home.png)
+
+"/home/timov/" Seuraavasti
 
 ### d)
 ### f)
