@@ -86,7 +86,7 @@ Aloitin komennolla sudo apt-get -y install lshw, jolla asensin työkalun, jotta 
 Tämän jälkeen käytin komentoa "sudo lshw -short -sanitize", jolla tulostin seuraavan listan.
 ![p3](images/rauta.png)
 
-Listasta ilmenee, että käyttöalusta on "virtualbox", ja hyvin pitkälti virutaalikoneen annetut arvot ovat ne mitä tästä listasta ilmenee. 4Gbit työmuistia, 64Gbit kovalevy tilaa (4Gbit taitaa olla järjestelmässä itsessää, kun olin itse laittanut 60Gbit käytettäväksi). Prosesori tiedot näköjään tulee isäntäkoneesta. Muuten kaikki näyttäisi aikalailla olevan virtuaalikoneen omia asetuksia.
+Listasta ilmenee, että käyttöalusta on "virtualbox", ja hyvin pitkälti virutaalikoneen annetut arvot ovat ne mitä tästä listasta ilmenee. 4Gbit työmuistia, 64Gbit kovalevy tilaa (4Gbit taitaa olla järjestelmässä itsessään, kun olin itse laittanut 60Gbit käytettäväksi). Prosesori tiedot näköjään tulee isäntäkoneesta. Muuten kaikki näyttäisi aikalailla olevan virtuaalikoneen omia asetuksia.
 
 ## Lähteet
 
