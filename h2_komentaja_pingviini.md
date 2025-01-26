@@ -27,9 +27,12 @@ Tärkeät kansiot löytyivät seuraavasta osoitteesta: "https://terokarvinen.com
 "/home/" Löytyi seuraavasti:
 ![c](images/home.png)
 
-"/home/timov/" Seuraavasti, cd timov/, jos ollaan home/ hakemistossa. Polun voi tarkistaa "$ pwd" komennolla. Yllä olevassa kuvassa ollaan home/ hakemistossa.
+"/home/timov/" Seuraavalla komennolla "cd timov/", jos ollaan home/ hakemistossa. Polun voi tarkistaa "pwd" komennolla. Yllä olevassa kuvassa ollaan home/ hakemistossa.
 
-"/etc/" löytyi siten, että palasin root polkuun käyttämällä "$ cd .." komentoa kahdesti.
+"/etc/" löytyi siten, että palasin "root" hakemistoon käyttämällä "cd .." komentoa kahdesti. Ja täältä "ls" komennolla pystyi näkemään, että täällä sijaitsee "etc/" hakemisto. Tähän navigoin komennolla "cd etc/"
+![c](images/root.png)
+
+"/media/" Hakemistoon menin seuraavasti. Aloitin siten, että tarkistin löytyykö "etc/" hakemistosta media kansiota kirjoittamalla komentotulkkiin "ls m" ja painamalla "tab" painiketta kahdesti.
 
 
 ### d)
