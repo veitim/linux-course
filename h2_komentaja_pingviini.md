@@ -34,25 +34,25 @@ Löytyi seuraavasti:
 
 #### "/etc/" 
 löytyi siten, että palasin "root" hakemistoon käyttämällä "cd .." komentoa kahdesti. Ja täältä "ls" komennolla pystyi näkemään, että täällä sijaitsee "etc/" hakemisto. Tähän navigoin komennolla "cd etc/"
-![c](images/root.png)
+![root](images/root.png)
 
 #### "/media/" 
 Hakemistoon menin seuraavasti. Aloitin siten, että tarkistin löytyykö "etc/" hakemistosta media kansiota kirjoittamalla komentotulkkiin "ls m" ja painamalla "tab" painiketta kahdesti.
-![c](images/searching.png)
+![search](images/searching.png)
 
 Ei löytynyt, joten palasin "root/" hakemistoon "cd .." komentoa käyttäen ja kirjoitin komentotulkkiin "ls m" ja painoin "tab" painiketta kahdesti. Täältä löytyi "media/" hakemisto, johon navigoin "cd media/" komentoa käyttäen.
-![c](images/media.png)
+![media](images/media.png)
 
 #### "var/log/"
 Hakemiston löysin palaamalla "root" hakemistoon. Tänne, kun kirjoitti "cd v" ja tupla tab, niin "var/" hakemisto jo tarjoutukin. Tämän jälkeen piti vain lisätä "log/" ja enter.
-![c](images/var_log2.png)
+![varlog](images/var_log2.png)
 
 ### d) Grep-komento
 Aloin tekemään tätä klo. 21.30
 
 Teron Karvisen (https://terokarvinen.com/linux-palvelimet/) materiaalin pohjalta navigoin seuraavalle sivustolle "https://man7.org/linux/man-pages/man1/grep.1.html" Ja rupesin testailemaan grep-komentoa.
 Tein grep-komentoa varten itseäni helpottavan tiedoston microlla documents/h2/ hakemistoon nimeltä "testaaja"
-![c](images/testaaja)
+![testaaja](images/testaaja.png)
 
 Alkuun en tahtonut tajuta miksen saa mitään komennosta irti. Joten avasin youtuben ja täältä seuraavasta videosta sain vähän työkaluja grepin käyttöön "https://www.youtube.com/watch?v=Tc_jntovCM0"
 
@@ -63,7 +63,7 @@ Käytin seuraavia komentoja:
 grep mansikka testaaja
 grep -c mansikka testaaja
 grep ma testaaja
-![grep](images/grep)
+![grep](images/grep.png)
 
 ### f)
 
