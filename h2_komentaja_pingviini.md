@@ -19,6 +19,8 @@ Googlasin: "komentorivi ohjelma". Valitsin seuraavan linkin, "https://www.linux.
 
 Aloitin tämän osion kello 20.20
 
+Tärkeät kansiot löytyivät seuraavasta osoitteesta: "https://terokarvinen.com/2020/command-line-basics-revisited/"
+
 "/" Root polku löytyi seuraavasti:
 ![c](images/root.png)
 
