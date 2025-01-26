@@ -74,10 +74,19 @@ Aloitin omasta hakemistostani, jonka olin luonut tätä tehtävää varten.
 Putkilla löysin testaajan. Seuraavaksi testasin etsiä vain "t" kirjainta putkella ja grepillä.
 ![p2](images/putkia2.png)
 
-Eli putkilla voi siis etsiä tietoja hakemistoista ja yhdessä grepin kanssa voi tarkentaa hakuja. Kokeilen vielä "etc/" hakemistossa tätä.
+Eli putkilla voi siis etsiä tietoja hakemistoista ja yhdessä grepin kanssa voi tarkentaa hakuja. Kokeilin vielä "etc/" hakemistossa tätä.
 ![p3](images/putkia3.png)
 
-### f)
+Ainakin, jokin hahmotus aiheesta syntynyt.
+
+### f) Rauta
+Aloitin tämän osion noin klo. 23.00
+
+Aloitin komennolla sudo apt-get -y install lshw, jolla asensin työkalun, jotta voisin tarkastella rautaani.
+Tämän jälkeen käytin komentoa "sudo lshw -short -sanitize", jolla tulostin seuraavan listan.
+![p3](images/rauta.png)
+
+Listasta ilmenee, että käyttöalusta on "virtualbox", ja hyvin pitkälti virutaalikoneen annetut arvot ovat ne mitä tästä listasta ilmenee. 4Gbit työmuistia, 64Gbit kovalevy tilaa (4Gbit taitaa olla järjestelmässä itsessää, kun olin itse laittanut 60Gbit käytettäväksi). Prosesori tiedot näköjään tulee isäntäkoneesta. Muuten kaikki näyttäisi aikalailla olevan virtuaalikoneen omia asetuksia.
 
 ## Lähteet
 
