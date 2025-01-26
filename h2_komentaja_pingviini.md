@@ -22,10 +22,13 @@ Aloitin tämän osion kello 20.20
 "/" Root polku löytyi seuraavasti:
 ![c](images/root.png)
 
-"/home/" Löytyi seuraavasti
+"/home/" Löytyi seuraavasti:
 ![c](images/home.png)
 
-"/home/timov/" Seuraavasti
+"/home/timov/" Seuraavasti, cd timov/, jos ollaan home/ hakemistossa. Polun voi tarkistaa "$ pwd" komennolla.
+
+"/etc/" löytyi siten, että palasin root polkuun käyttämällä "$ cd .." komentoa kahdesti.
+
 
 ### d)
 ### f)
