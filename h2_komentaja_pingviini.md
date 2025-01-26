@@ -34,6 +34,8 @@ Tärkeät kansiot löytyivät seuraavasta osoitteesta: "https://terokarvinen.com
 
 "/media/" Hakemistoon menin seuraavasti. Aloitin siten, että tarkistin löytyykö "etc/" hakemistosta media kansiota kirjoittamalla komentotulkkiin "ls m" ja painamalla "tab" painiketta kahdesti.
 
+Ei löytynyt, joten palasin "root/" hakemistoon "cd .." komentoa käyttäen ja kirjoitin komentotulkkiin "ls m" ja painoin "tab" painiketta kahdesti. Täältä löytyi "media/" hakemisto, johon navigoin "cd media/" komentoa käyttäen.
+
 
 ### d)
 ### f)
