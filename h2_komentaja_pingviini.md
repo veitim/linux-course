@@ -1,5 +1,24 @@
 # h2 - Komentaja Pingviini
-### x) Tiivistelmä
+Tässä tehdään Tero Karvisen kurssimateriaalista löytyvää tehtävää nimeltä h2 - Komentaja Pingviini.
+Pääasiallisesti tässä on käytetty Tero Karvisen kurssimateriaaleja, jotka löytyvät seuraavalta sivustolta: https://terokarvinen.com/linux-palvelimet/.
+
+### x) Tiivistelmä - Command Line Basics Revisited
+
+#### Liikkuminen ja tarkastelu
+$ pwd - printtaa työskentely hakemiston ja tämän polun
+$ ls - listaa tiedostot hakemistosta
+$ cd "hakemisto"/ - vaihtaa hakemistoa
+$ cd .. - ylemmälle tasole siirtyminen hakemisto polulla. (eli lähemmäs root/ hakemistoa)
+
+#### Tiedoston käsittely
+$ nano FOO.txt - luo FOO nimisen tekstitiedoston nano-tekstinkäsittely ohjelmalla.
+$ mkdir NEWFOLDER - luo NEWFOLDER nimisen hakemiston (kansion)
+$ mv OLDNAME NEWNAME- siirtää tai uudelleen nimeää hakemiston tai tiedoston. OLDNAMESTA tulee NEWNAME, vaikka NEWNAME niminen tiedosto olisi ollut jo olemassa.
+$ cp -r ALKUPERÄINEN KOPIO - kopioi alkuperäisen hakemiston ja antaa nimeksi KOPIO
+$ rm JUNK - poistaa "JUNK" nimisen tiedoston tai hakemiston.
+
+#### Pakettien hallinta
+$ sudo apt-get update - päivittää saatavilla olevat paketit
 
 ### a) Micro editorin asennus
 
@@ -10,7 +29,10 @@ Aloitin työskentelyn noin kello 18.20. Ensimmäiseksi avasin terminaalin ja pä
 
 ### b) 3 uutta komentorivi ohjelmaa
 
-Googlasin: "komentorivi ohjelma". Valitsin seuraavan linkin, "https://www.linux.fi/wiki/Comm". Tässä linkissä esitellään komentoriviohjelma comm
+Käytin googlen hakukonetta seuraavalla haulla "commandline programs for linux" ja valitsin seuraavan linkin: "https://www.tecmint.com/command-line-tools/"
+
+Valitsin listalta olevat kolme ensimmäistä ohjelmaa "Wikit, Googler ja Browsh"
+
 
 ### c) Tärkeät kansiot
 
