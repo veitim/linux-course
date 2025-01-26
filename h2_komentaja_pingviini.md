@@ -84,6 +84,7 @@ Aloin tekemään tätä klo. 21.30
 
 Teron Karvisen (https://terokarvinen.com/linux-palvelimet/) materiaalin pohjalta navigoin seuraavalle sivustolle "https://man7.org/linux/man-pages/man1/grep.1.html" Ja rupesin testailemaan grep-komentoa.
 Tein grep-komentoa varten itseäni helpottavan tiedoston microlla documents/h2/ hakemistoon nimeltä "testaaja"
+
 ![testaaja](images/testaaja.png)
 
 Alkuun en tahtonut tajuta miksen saa mitään komennosta irti. Joten avasin youtuben ja täältä seuraavasta videosta sain vähän työkaluja grepin käyttöön "https://www.youtube.com/watch?v=Tc_jntovCM0"
