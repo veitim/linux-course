@@ -60,10 +60,13 @@ Hoksasinkin, etten ollut käyttänyt greppiä oikein. Eli olin yrittänyt hakea 
 
 Hetken hämmästeltyäni tajusin sitten hakea jotain tiedostosta.
 Käytin seuraavia komentoja:
-grep mansikka testaaja
-grep -c mansikka testaaja
-grep ma testaaja
+"grep mansikka testaaja", Tällä löytyi 2 mansikkaa tiedostosta
+
+"grep -c mansikka testaaja", Tämä laski, että tiedostosta löytyi 2 "mansikka" termiä.
+
+"grep ma testaaja", Tämä näytti kaikki "ma" alkuiset objektit tiedostosta.
 ![grep](images/grep.png)
+
 
 ### f)
 
