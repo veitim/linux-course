@@ -35,7 +35,7 @@ Avasin terminaalin ja yritin asentaa kaikki kolme ohjelmaa kerralla komennolla "
 Tutkin asiaa ja selvisi, että wikit tarvitsee noden ja npm:n toimiakseen joten asensin nämä. komennolla "@ sudo apt install npm nodejs", jonka jälkeen pystyin asentamaan wikitin komennolla "$ sudo npm install wikit -g"
 
 Seuraavaksi testailin juuri asentamiani ohjelmia. Aloitin Boxes ohjelmasta komennolla "", mikä näytti seuraavalta
-![c](images/boksi.png)
+![c](images/boxes.png)
 
 Seuraavaksi käytin wikittiä komennolla "", mikä näytti seuraavalta:
 ![c](images/linux.png)
