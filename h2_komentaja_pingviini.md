@@ -15,7 +15,16 @@ Valmis kello 18.30
 
 Googlasin: "komentorivi ohjelma". Valitsin seuraavan linkin, "https://www.linux.fi/wiki/Comm". Tässä linkissä esitellään komentoriviohjelma comm
 
-### c)
+### c) Tärkeät kansiot
+
+Aloitin tämän osion kello 20.20
+
+"/" Root polku löytyi seuraavasti:
+![c](images/root.png)
+
+"/home/" Löytyi seuraavasti
+!
+
 ### d)
 ### f)
 
