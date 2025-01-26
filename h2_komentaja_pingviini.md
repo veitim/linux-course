@@ -8,8 +8,6 @@ Aloitin työskentelyn noin kello 18.20. Ensimmäiseksi avasin terminaalin ja pä
 
 ![a](images/micro.png)
 
-Valmis kello 18.30
-
 ### b) 3 uutta komentorivi ohjelmaa
 
 Googlasin: "komentorivi ohjelma". Valitsin seuraavan linkin, "https://www.linux.fi/wiki/Comm". Tässä linkissä esitellään komentoriviohjelma comm
@@ -66,8 +64,18 @@ Käytin seuraavia komentoja:
 "grep ma testaaja", Tämä näytti kaikki "ma" alkuiset objektit tiedostosta.
 ![grep](images/grep.png)
 
-### e)
+### e) Putkitus
 ALoitin tämän osion klo. 22.00
+
+Aloitin lukemalla putkista sivustolta: https://www.geeksforgeeks.org/piping-in-unix-or-linux/. Tässä vaiheessa voin myöntää, että en jaksa edes ymmärtää. Joten on aika kokeilla.
+Aloitin omasta hakemistostani, jonka olin luonut tätä tehtävää varten.
+![putki](images/putkia.png)
+
+Putkilla löysin testaajan. Seuraavaksi testasin etsiä vain "t" kirjainta putkella ja grepillä.
+![p2](images/putkia2.png)
+
+Eli putkilla voi siis etsiä tietoja hakemistoista ja yhdessä grepin kanssa voi tarkentaa hakuja. Kokeilen vielä "etc/" hakemistossa tätä.
+![p3](images/putkia3.png)
 
 ### f)
 
@@ -78,4 +86,6 @@ https://terokarvinen.com/2020/command-line-basics-revisited/
 https://www.youtube.com/watch?v=Tc_jntovCM0
 
 https://man7.org/linux/man-pages/man1/grep.1.html
+
+https://www.geeksforgeeks.org/piping-in-unix-or-linux/
 
