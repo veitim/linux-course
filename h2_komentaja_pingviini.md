@@ -67,6 +67,8 @@ Käytin seuraavia komentoja:
 "grep ma testaaja", Tämä näytti kaikki "ma" alkuiset objektit tiedostosta.
 ![grep](images/grep.png)
 
+### e)
+ALoitin tämän osion klo. 22.00
 
 ### f)
 
