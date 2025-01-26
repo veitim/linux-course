@@ -29,10 +29,19 @@ Aloitin työskentelyn noin kello 18.20. Ensimmäiseksi avasin terminaalin ja pä
 
 ### b) 3 uutta komentorivi ohjelmaa
 
-Käytin googlen hakukonetta seuraavalla haulla "commandline programs for linux" ja valitsin seuraavan linkin: "https://www.tecmint.com/command-line-tools/"
+Käytin googlen hakukonetta seuraavalla haulla "commandline programs for linux" ja valitsin seuraavan linkin: "https://www.tecmint.com/command-line-tools/". Valitsin listalta seuraavat ohjelmat "Wikit, Boxes ja Figlet"
 
-Valitsin listalta olevat kolme ensimmäistä ohjelmaa "Wikit, Googler ja Browsh"
+Avasin terminaalin ja yritin asentaa kaikki kolme ohjelmaa kerralla komennolla "$ sudo apt-get -y install wikit figlet boxes". Boxes ja Figlet asentui.
+Tutkin asiaa ja selvisi, että wikit tarvitsee noden ja npm:n toimiakseen joten asensin nämä. komennolla "@ sudo apt install npm nodejs", jonka jälkeen pystyin asentamaan wikitin komennolla "$ sudo npm install wikit -g"
 
+Seuraavaksi testailin juuri asentamiani ohjelmia. Aloitin Boxes ohjelmasta komennolla "", mikä näytti seuraavalta
+![c](images/boksi.png)
+
+Seuraavaksi käytin wikittiä komennolla "", mikä näytti seuraavalta:
+![c](images/linux.png)
+
+Ja viimeisenä käytin Figlettiä komennolla "$ figlet LINUX KURSSI" , mikä näytti seuraavalta:
+![c](images/figlet.png)
 
 ### c) Tärkeät kansiot
 
