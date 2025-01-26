@@ -1,11 +1,4 @@
 # h2 - Komentaja Pingviini
-Seuraavia lähteitä on käytetty:
-https://terokarvinen.com/2020/command-line-basics-revisited/
-
-https://www.youtube.com/watch?v=Tc_jntovCM0
-
-https://man7.org/linux/man-pages/man1/grep.1.html
-
 ### x) Tiivistelmä
 
 ### a) Micro editorin asennus
@@ -77,4 +70,13 @@ Käytin seuraavia komentoja:
 ALoitin tämän osion klo. 22.00
 
 ### f)
+
+## Lähteet
+Seuraavia lähteitä on käytetty:
+
+https://terokarvinen.com/2020/command-line-basics-revisited/
+
+https://www.youtube.com/watch?v=Tc_jntovCM0
+
+https://man7.org/linux/man-pages/man1/grep.1.html
 
