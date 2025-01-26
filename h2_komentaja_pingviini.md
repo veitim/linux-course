@@ -28,6 +28,7 @@ Aloitin työskentelyn noin kello 18.20. Ensimmäiseksi avasin terminaalin ja pä
 ![a](images/micro.png)
 
 ### b) 3 uutta komentorivi ohjelmaa
+ALoitin työskentelyn noin klo. 00.00.
 
 Käytin googlen hakukonetta seuraavalla haulla "commandline programs for linux" ja valitsin seuraavan linkin: "https://www.tecmint.com/command-line-tools/". Valitsin listalta seuraavat ohjelmat "Wikit, Boxes ja Figlet"
 
