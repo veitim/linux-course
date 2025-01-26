@@ -34,7 +34,7 @@ Käytin googlen hakukonetta seuraavalla haulla "commandline programs for linux" 
 Avasin terminaalin ja yritin asentaa kaikki kolme ohjelmaa kerralla komennolla "$ sudo apt-get -y install wikit figlet boxes". Boxes ja Figlet asentui.
 Tutkin asiaa ja selvisi, että wikit tarvitsee noden ja npm:n toimiakseen joten asensin nämä. komennolla "@ sudo apt install npm nodejs", jonka jälkeen pystyin asentamaan wikitin komennolla "$ sudo npm install wikit -g"
 
-Seuraavaksi testailin juuri asentamiani ohjelmia. Aloitin Boxes ohjelmasta komennolla "", mikä näytti seuraavalta
+Seuraavaksi testailin juuri asentamiani ohjelmia. Aloitin Boxes ohjelmasta komennolla "$ echo "hey" | boxes", mikä näytti seuraavalta
 ![c](images/boxes.png)
 
 Seuraavaksi käytin wikittiä komennolla "", mikä näytti seuraavalta:
