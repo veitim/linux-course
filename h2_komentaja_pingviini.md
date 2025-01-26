@@ -9,6 +9,8 @@ Aloitin työskentelyn noin kello 18.20. Ensimmäiseksi avasin terminaalin ja pä
 
 ![a](images/micro.png)
 
+Valmis kello 18.30
+
 ### b) 3 uutta komentorivi ohjelmaa
 
 Googlasin: "komentorivi ohjelma". Valitsin seuraavan linkin, "https://www.linux.fi/wiki/Comm". Tässä linkissä esitellään komentoriviohjelma comm
