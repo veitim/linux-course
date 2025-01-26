@@ -9,4 +9,8 @@ Aloitin työskentelyn noin kello 18.20. Ensimmäiseksi avasin terminaalin ja pä
 
 ![a](images/micro.png)
 
+## Tehtävä b) 3 uutta komentorivi ohjelmaa
+
+
+
 
