@@ -38,7 +38,7 @@ Tutkin asiaa ja selvisi, että wikit tarvitsee noden ja npm:n toimiakseen joten 
 Seuraavaksi testailin juuri asentamiani ohjelmia. Aloitin Boxes ohjelmasta komennolla "$ echo "hey" | boxes", mikä näytti seuraavalta
 ![c](images/boxes.png)
 
-Seuraavaksi käytin wikittiä komennolla "", mikä näytti seuraavalta:
+Seuraavaksi käytin wikittiä komennolla "$ wikit linux", mikä näytti seuraavalta:
 ![c](images/linux.png)
 
 Ja viimeisenä käytin Figlettiä komennolla "$ figlet LINUX KURSSI" , mikä näytti seuraavalta:
