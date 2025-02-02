@@ -44,19 +44,19 @@ Rivien tulkintata:
   
   * "GET" - On pyynnön tyyppi. Tässä tapauksessa yritetään hakea jotain mitä, voidaan näyttää.
 
-  "HTTP1/1" - On protokolla
+  * "HTTP1/1" - On protokolla
   
-  "200" - Pyynnön status, eli tässä tapuksessa pyyntö on onnistunut ja haluttu objekti näytetään.
+  * "200" - Pyynnön status, eli tässä tapuksessa pyyntö on onnistunut ja haluttu objekti näytetään.
 
-  "3380" - on palaavan objektin koko.
+  * "3380" - on palaavan objektin koko.
 
-  "Mozilla/5.0" - Tässä esiintyy selain, jolla pyyntö ollaan tehty.
+  * "Mozilla/5.0" - Tässä esiintyy selain, jolla pyyntö ollaan tehty.
   
-  "(X11; Linux x86_64; rv:128.0)" - Käyttöjärjestelmä, jolla pyyntö ollaan tehty.
+  * "(X11; Linux x86_64; rv:128.0)" - Käyttöjärjestelmä, jolla pyyntö ollaan tehty.
   
-  "Gecko/20100101" - Alusta, johon selain perustuu, millä pyyntö ollaan tehty.
+  * "Gecko/20100101" - Alusta, johon selain perustuu, millä pyyntö ollaan tehty.
   
-  "Firefox/128.0" - Selaimen versio, jolla pyyntö ollaan tehty.
+  * "Firefox/128.0" - Selaimen versio, jolla pyyntö ollaan tehty.
 
   Kuvassa näkyy myös kaksi status "404". Tämä tarkoittaa sitä, että asiaa mitä pyydettiin ei löydy. Kuvan tapauksessa, yritetään hakea jotain iconi kuvaa localhost osoitteesta. Ei löydy, kun ei tämmöistä sivustolle olle asetettukkaan.
   
