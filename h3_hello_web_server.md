@@ -107,9 +107,11 @@ Listassa näkyi "terminaattori" kokeilin toimiiko
 
 ![terminaattori](images/terminaattori.png)
 
-toimihan se.
+Toimihan se. Sitten vielä kokeilin seuraavalla haulla "hattu.example.com".
 
 ![valmis](images/h3.valmis.png)
+
+Tämäkin toimi.
 
 ### e) HTML5 sivu
 
