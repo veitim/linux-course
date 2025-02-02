@@ -1,6 +1,14 @@
 # h3_hello_web_server
 
+Tämä harjoitus on osana Tero Karvisen kurssitoteutusta Linux Palvelimet 2025 alkukevät.
+Enimmäkseen tehtävää tehdessä on käytetty Tero Karvisen kurssimateriaaleja, jotka löytyvät seuraavalta sivustolta: https://terokarvinen.com/linux-palvelimet/.
+
 ### x) tiivistys
+
+Name-based Virtual Host Support (The Apache Software Foundation)
+* tsädäm
+
+Name Based Virtual Hosts on Apache (Tero Karvinen 2018)
 
 ### a) Apachen asennus
 Aloitin tämän klo. 17.30
@@ -28,13 +36,13 @@ Rivien tulkintata:
 
   Seuraavaksi tulkitsen kuvasta toisiksi ylintä riviä.
 
-  "127.0.0.1" - on IP osoite, mistä pyyntö on lähetetty.
+  * "127.0.0.1" - on IP osoite, mistä pyyntö on lähetetty.
   
-  "-" - on nimitunniste, koska tätä ei ole asetettu, niin on se "-".
+  * "-" - on nimitunniste, koska tätä ei ole asetettu, niin on se "-".
   
-  "[28/Jan/2025:19:36:44 +0200]" - Kertoo pyynnön päivämäärän ja ajan.
+  * "[28/Jan/2025:19:36:44 +0200]" - Kertoo pyynnön päivämäärän ja ajan.
   
-  "GET" - On pyynnön tyyppi. Tässä tapauksessa yritetään hakea jotain mitä, voidaan näyttää.
+  * "GET" - On pyynnön tyyppi. Tässä tapauksessa yritetään hakea jotain mitä, voidaan näyttää.
 
   "HTTP1/1" - On protokolla
   
