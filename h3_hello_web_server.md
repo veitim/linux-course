@@ -103,7 +103,7 @@ Eli olin vahingossa tehntyt "hattu.example.com" sivuston tiedostoksi "public_htm
 
 Vika selvitetty. 
 
-Seuraavaksi kävin päivittämässä "index.html" sivun.
+Seuraavaksi kävin päivittämässä "index.html" sivun. Koska "public_html/" hakemisto oli aktiivisena pystyi komennolla "$ micro hattu.example.com/index.html" muokkauksen tekemään.
 
 ![index](images/h3_lisays.png)
 
