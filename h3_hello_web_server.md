@@ -101,7 +101,13 @@ Eli olin vahingossa tehntyt "hattu.example.com" sivuston tiedostoksi "public_htm
 
 ![sivuhattu](images/h3_sivuhattu.png)
 
-Vika selvitetty. Seuraavaksi piti selvitellä, että miten saan sivuston latautumaan "hattu.example.com" hakusanalla. Tero Karvisen, "https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/" Löytyikin ohjeet tähän. Eli komennolla "$ sudoedit /etc/hosts" pääsi lokaaliin nimipalveluun. Tänne lisättiin omalla ip osoitteella "hattu.example.com"
+Vika selvitetty. 
+
+Seuraavaksi kävin päivittämässä "index.html" sivun.
+
+![index](images/h3_lisays.png)
+
+Seuraavaksi piti selvitellä, että miten saan sivuston latautumaan "hattu.example.com" hakusanalla. Tero Karvisen, "https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/" Löytyikin ohjeet tähän. Eli komennolla "$ sudoedit /etc/hosts" pääsi lokaaliin nimipalveluun. Tänne lisättiin omalla ip osoitteella "hattu.example.com"
 
 ![host](images/h3_host.png)
 
