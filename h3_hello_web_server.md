@@ -17,17 +17,30 @@ Lokitiedostoa "access.log" tutkin seuraavalla komennolla "sudo tail /var/log/apa
 
 ![localhost](images/lokit1.png)
 
-Rivien tulkinta:
+Rivien tulkintata:
+
+  Seuraavaksi tulkitsen kuvasta toisiksi ylintä riviä.
 
   "127.0.0.1" on IP osoite, mistä pyyntö on lähetetty.
   
   "-" on nimitunniste, koska tätä ei ole asetettu, niin on se "-".
   
-  "[28/Jan/2025:19:41:33 +0200]" Kertoo pyynnön päivämäärän ja ajan.
+  "[28/Jan/2025:19:36:44 +0200]" Kertoo pyynnön päivämäärän ja ajan.
   
   "GET" On pyynnön tyyppi. Tässä tapauksessa yritetään hakea jotain mitä, voidaan näyttää.
+
+  "HTTP1/1" On protokolla
   
   "200" Pyynnön status, eli tässä tapuksessa pyyntö on onnistunut ja haluttu objekti näytetään.
+
+  "3380" on palaavan objektin koko.
+
+  "Mozilla/5.0" Tässä esiintyy selain, jolla pyyntö ollaan tehty.
+  
+  "(X11; Linux x86_64; rv:128.0)" Käyttöjärjestelmä, jolla pyyntö ollaan tehty.
+  
+  "Gecko/20100101 Firefox/128.0" Selaimen versio, jolla pyyntö ollaan tehty.
+  
 
   
 ### c) Etusivu uusiksi
