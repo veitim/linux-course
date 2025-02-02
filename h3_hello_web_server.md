@@ -95,6 +95,8 @@ Ei toiminut, joten eikun selvittämään. Aloitin lokitiedostoja tutkimalla kome
 
 ![selvitysta](images/h3_selvitys.png)
 
+Eli olin vahingossa tehntyt "hattu.example.com" sivuston tiedostoksi "public_html" hakemistoon. Muutin "hattu.example.com" tiedoston "index.html" nimiseksi seuraavalla komennolla "$ mv hattu.example.com index.html". Tämän jälkeen tein hakemiston nimeltä "hattu.example.com" komennolla "$ mkdir hattu.example.com". Sitten siirsin "index.html" tiedoston hakemistoon "hattu.example.com" komennolla "$ mv index.html hattu.example.com/"
+
 ### e) HTML5 sivu
 
 ### f) esimerkki "curl -I" ja "curl" komennosta
