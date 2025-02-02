@@ -125,7 +125,7 @@ Tämäkin toimi.
 
 Aloitin tämän osion klo. 22.30
 
-Aloitin muokkaamalla "/home/timov/public_html/hattu.example.com" hakemistosta löytyvää tiedostoa "inde.html" komennolla "micro index.html"
+Aloitin muokkaamalla "/home/timov/public_html/hattu.example.com" hakemistosta löytyvää tiedostoa "inde.html" komennolla "micro index.html" Pohja löytyi Tero Karvisen materiaaleista "https://terokarvinen.com/2012/short-html5-page/"
 
 ![validointia](images/h3.validointia.png)
 
@@ -139,7 +139,7 @@ Tuloksena tuli pieniä herjauksia kielen ja ylimääräisen "/" merkin takia. Te
 
 Tein validointi testin uudestaan.
 
-![validointia](images/h3_validointia4.png)
+![validointia](images/h3-validointia4.png)
 
 Ei herjausta validointi onnistui.
 
