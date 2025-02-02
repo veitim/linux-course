@@ -9,6 +9,10 @@ Apachen asennus lähtee komennosta "$ sudo apt-get install apache2" Itse en tät
 
 ![apac](images/apache.png)
 
+Testasin kuitenkin, toimivuutta tekemällä pyynnön omalla ip osoitteella. Eli, kirjoitin konsoliin komennon "$ ip addr", josta sai oman ip osoitteen. Sitten lisäsin oman ip osoitteen komentoon "$ firefox 127.0.0.1"
+![iphaku](images/h3_ip_haku.png)
+![ip](images/h3_ip.png)
+
 
 ### b) Lokit
 Aloitin tämän osion klo. 17.35
