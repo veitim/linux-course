@@ -7,7 +7,7 @@ Aloitin tämän klo. 17.30
 
 Apachen asennus lähtee komennosta "$ sudo apt-get install apache2" Itse en tätä nyt tällä kertaa tehnyt, kun olin apachen jo asentanut aiemmin. Seuraava kuva tästä todisteena.
 
-![localhost](images/localhost.png)
+![apac](images/apache.png)
 
 
 ### b) Lokit
