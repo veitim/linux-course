@@ -121,7 +121,17 @@ Toimihan se. Sitten vielä kokeilin seuraavalla haulla "hattu.example.com".
 
 Tämäkin toimi.
 
-### e) HTML5 sivu
+### e) HTML5 sivu - validointi
+
+Aloitin tämän osion klo. 22.30
+
+Aloitin muokkaamalla "/home/timov/public_html/hattu.example.com" hakemistosta löytyvää tiedostoa "index_html" komennolla "micro index_html"
+
+![validointia](images/h3.validointia.png)
+
+Sitten menin sivustolle "https://validator.w3.org/#validate_by_upload" valitsin "validate by file upload" sillä sivusto ei ole verkossa.
+
+![validointia](images/h3_validointia2.png)
 
 ### f) esimerkki "curl -I" ja "curl" komennosta
 
