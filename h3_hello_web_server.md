@@ -99,6 +99,8 @@ Eli olin vahingossa tehntyt "hattu.example.com" sivuston tiedostoksi "public_htm
 
 ![sivuhattu](images/h3_sivuhattu.png)
 
+Vika selvitetty. 
+
 ### e) HTML5 sivu
 
 ### f) esimerkki "curl -I" ja "curl" komennosta
