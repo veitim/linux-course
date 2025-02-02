@@ -145,6 +145,16 @@ Ei herjausta validointi onnistui.
 
 ### f) esimerkki "curl -I" ja "curl" komennosta
 
+Aloin tekemään tätä noin klo. 23.00
+
+Testasin terminaalissa mitä tapahtuu, kun kirjoittaa sinne "$ curl" Seuraavaksi kokeilin komentoa "$ curl --help"
+
+![curl](images/h3_curl1.png)
+
+Tämän jälkeen kokeilin komentoja "$ curl localhost", "$ curl -I localhost" ja "$ curl -I hattu.example.com"
+
+![curl](images/h3_curl.png)
+
 ### Lähteet
 https://terokarvinen.com/linux-palvelimet/
 https://www.linux.fi/wiki/Portaali:Komentorivi
