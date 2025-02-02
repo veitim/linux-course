@@ -77,6 +77,15 @@ Tämän jälkeen kävin tekemässä microlla tiedoston "hattu.example.com" hakem
 
 ![hattu](images/thisishattu.png)
 
+Seuraavaksi tarkistin, että minkä sivuston apache käy lukemassa komennolla "$ ls /etc/apache2/sites-enabled".
+
+![enable_tarkistus](images/h3_enable_tarkistus.png)
+
+Näkyi, että tunnilla tehtty sivu on aktiivinen. Piti verestää muistia, että miten sivustot aktivoitiin/deaktivoitiin. Löysin vinkkiä seuraavalta sivustolta "https://www.linode.com/community/questions/311/how-do-i-enabledisable-a-website-hosted-with-apache". Komennot ovat seuraavat "$ a2ensite <sivu>" (aktivoi) ja "$ a2dissite <sivu>" (deaktivoi). Testataan sivuston deaktivointia komennolla "$ a2dissite supersivu.com.conf"
+
+![endis](images/endis.png)
+
+Kuten näkyy, ei toiminut, koska oli unohtunut "sudo" edestä. 
 
 ### e) HTML5 sivu
 
