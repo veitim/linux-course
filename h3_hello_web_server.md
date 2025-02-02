@@ -85,7 +85,7 @@ Näkyi, että tunnilla tehtty sivu on aktiivinen. Piti verestää muistia, että
 
 ![endis](images/endis.png)
 
-Kuten näkyy, ei toiminut, koska oli unohtunut "sudo" edestä. Seuraavaksi potkaisin apachen uusiksi käyntiin komennolla "$ sudo systemctl restart apache2". Sitten tarkistin, että onko supersivu.com aktiivinen komennolla "ls sites-enabled" (huom. olin hakemistossa "/etc/apache2/"). Mitään ei näkynyt, enään joten sivusto oli deaktivoitu onnistuneesti. Tämän jälkeen komennolla "$ sudo a2ensite hattu.example.com.conf" aktivoiin sivun. Sitten taas demonin potkaisu komennolla "$ sudo systemctl restart apache2" ja komennolla "$ ls sites-enabled/" tarkistus, että sivusto on aktivoitunut.
+Kuten näkyy, ei toiminut, koska oli unohtunut "sudo" edestä. Seuraavaksi potkaisin apachen uusiksi käyntiin komennolla "$ sudo systemctl restart apache2". Sitten tarkistin, että onko supersivu.com aktiivinen komennolla "$ ls sites-enabled" (huom. olin hakemistossa "/etc/apache2/"). Mitään ei näkynyt, enään joten sivusto oli deaktivoitu onnistuneesti. Tämän jälkeen komennolla "$ sudo a2ensite hattu.example.com.conf" aktivoiin sivun. Sitten taas demonin potkaisu komennolla "$ sudo systemctl restart apache2" ja komennolla "$ ls sites-enabled/" tarkistus, että sivusto on aktivoitunut.
 
 ### e) HTML5 sivu
 
