@@ -45,9 +45,29 @@ Rivien tulkintata:
 
   Kuvassa näkyy myös kaksi status "404". Tämä tarkoittaa sitä, että asiaa mitä pyydettiin ei löydy. Kuvan tapauksessa, yritetään hakea jotain iconi kuvaa localhost osoitteesta. Ei löydy, kun ei tämmöistä sivustolle olle asetettukkaan.
   
-
-  
 ### c) Etusivu uusiksi
+
+Aloitin tämän osion 18.45
+
+Ensiksi navigoin apachen "sites-available" hakemistoon komennolla "$ cd /etc/apache2/sites-available".
+
+![nav](images/nav.png)
+
+Tämän jälkeen tein microlla "sites-available" hakemistoon tiedoston nimeltä "hattu.example.com.conf" komennolla "micro hattu.example.com.conf".
+
+Tiedostoon lisäsin seuraavat rivit ja tallensin tiedoston "ctrl+s" näppäinyhdistelmällä ja poistuin tiedostosta "ctrl+q" näppäinyhdistelmällä.
+
+![conf](images/conf.png)
+
+Tarkisin "ls" komennolla, että hakemistoon oli tullut "hattu.example.com.conf" niminen tiedosto.
+![tarkistus](images/tarkistus.png)
+
+Tämän jälkeen kävin tekemässä microlla tiedoston "hattu.example.com" hakemistoon "/home/timov/public_html/". Tiedostoon lisäsin tekstin "THIS IS HATTU"
+
+![hattu.com](images/hattu.com.png)
+
+![hattu](images/thisishattu.png)
+
 
 ### e) HTML5 sivu
 
