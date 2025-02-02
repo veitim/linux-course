@@ -155,6 +155,8 @@ Tämän jälkeen kokeilin komentoja "$ curl localhost", "$ curl -I localhost" ja
 
 ![curl](images/h3_curl.png)
 
+Näyttäisi siltä, että "$ curl" komento näyttää html sivun ja "$ curl -I" näyttää tietoja sivustolta. Mm. serverin tyypin, statuksen, päivämäärän ja ajan milloin komento on suoritettu, milloin sivua on viimeksi muokattu, sivun pituuden ja sisällön tyypin. 
+
 ### Lähteet
 https://terokarvinen.com/linux-palvelimet/
 https://www.linux.fi/wiki/Portaali:Komentorivi
