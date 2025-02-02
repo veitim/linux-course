@@ -109,7 +109,7 @@ Listassa näkyi "terminaattori" kokeilin toimiiko
 
 toimihan se.
 
-![valmis](images/h3_valmis.png)
+![valmis](images/h3.valmis.png)
 
 ### e) HTML5 sivu
 
