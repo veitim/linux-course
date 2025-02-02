@@ -129,7 +129,7 @@ Aloitin muokkaamalla "/home/timov/public_html/hattu.example.com" hakemistosta l�
 
 ![validointia](images/h3.validointia.png)
 
-Sitten menin sivustolle "https://validator.w3.org/#validate_by_upload" valitsin "validate by file upload" sillä sivusto ei ole verkossa. Ja etsin juuri muokkaamani "index.html" tiedoston.
+Sitten menin sivustolle "https://validator.w3.org/#validate_by_upload" valitsin "validate by file upload" sillä sivusto ei ole verkossa. Sitten etsin juuri muokkaamani "index.html" tiedoston ja painoin "Check" painiketta.
 
 ![validointia](images/h3_validointia2.png)
 
