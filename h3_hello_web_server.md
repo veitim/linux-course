@@ -62,7 +62,7 @@ Tiedostoon lisäsin seuraavat rivit ja tallensin tiedoston "ctrl+s" näppäinyhd
 Tarkisin "ls" komennolla, että hakemistoon oli tullut "hattu.example.com.conf" niminen tiedosto.
 ![tarkistus](images/tarkistus.png)
 
-Tämän jälkeen kävin tekemässä microlla tiedoston "hattu.example.com" hakemistoon "/home/timov/public_html/". Tiedostoon lisäsin tekstin "THIS IS HATTU"
+Tämän jälkeen kävin tekemässä microlla tiedoston "hattu.example.com" hakemistoon "/home/timov/public_html/". Tiedostoon lisäsin tekstin "THIS IS HATTU" ("mkdir public_html" komennolla olin aiemmin tehnyt "public_html" hakemiston)
 
 ![hattu.com](images/hattu.com.png)
 
