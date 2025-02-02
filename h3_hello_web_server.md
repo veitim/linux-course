@@ -62,7 +62,7 @@ Ensiksi navigoin apachen "sites-available" hakemistoon komennolla "$ cd /etc/apa
 
 Tämän jälkeen tein microlla "sites-available" hakemistoon tiedoston nimeltä "hattu.example.com.conf" komennolla "micro hattu.example.com.conf".
 
-![teehattu](imgaes/tee_hattu_conf.ong)
+![teehattu](imgaes/tee_hattu_conf.png)
 
 Tiedostoon lisäsin seuraavat rivit ja tallensin tiedoston "ctrl+s" näppäinyhdistelmällä ja poistuin tiedostosta "ctrl+q" näppäinyhdistelmällä.
 
