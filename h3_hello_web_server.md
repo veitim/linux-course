@@ -39,7 +39,11 @@ Rivien tulkintata:
   
   "(X11; Linux x86_64; rv:128.0)" Käyttöjärjestelmä, jolla pyyntö ollaan tehty.
   
-  "Gecko/20100101 Firefox/128.0" Selaimen versio, jolla pyyntö ollaan tehty.
+  "Gecko/20100101" Alusta, johon selain perustuu, millä pyyntö ollaan tehty.
+  
+  "Firefox/128.0" Selaimen versio, jolla pyyntö ollaan tehty.
+
+  Kuvassa näkyy myös kaksi status "404". Tämä tarkoittaa sitä, että asiaa mitä pyydettiin ei löydy. Kuvan tapauksessa, yritetään hakea jotain iconi kuvaa localhost osoitteesta.
   
 
   
@@ -53,3 +57,4 @@ Rivien tulkintata:
 https://terokarvinen.com/linux-palvelimet/
 https://www.linux.fi/wiki/Portaali:Komentorivi
 https://httpd.apache.org/docs/2.4/logs.html
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent/Firefox
