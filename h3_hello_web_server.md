@@ -64,7 +64,7 @@ Tämän jälkeen tein microlla "sites-available" hakemistoon tiedoston nimeltä 
 
 Tiedostoon lisäsin seuraavat rivit ja tallensin tiedoston "ctrl+s" näppäinyhdistelmällä ja poistuin tiedostosta "ctrl+q" näppäinyhdistelmällä.
 
-![conf](images/conf.png)
+![conf](images/hattu_conf.png)
 
 Tarkisin "ls" komennolla, että hakemistoon oli tullut "hattu.example.com.conf" niminen tiedosto.
 ![tarkistus](images/tarkistus.png)
