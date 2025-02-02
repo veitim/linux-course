@@ -125,13 +125,23 @@ Tämäkin toimi.
 
 Aloitin tämän osion klo. 22.30
 
-Aloitin muokkaamalla "/home/timov/public_html/hattu.example.com" hakemistosta löytyvää tiedostoa "index_html" komennolla "micro index_html"
+Aloitin muokkaamalla "/home/timov/public_html/hattu.example.com" hakemistosta löytyvää tiedostoa "inde.html" komennolla "micro index.html"
 
 ![validointia](images/h3.validointia.png)
 
-Sitten menin sivustolle "https://validator.w3.org/#validate_by_upload" valitsin "validate by file upload" sillä sivusto ei ole verkossa.
+Sitten menin sivustolle "https://validator.w3.org/#validate_by_upload" valitsin "validate by file upload" sillä sivusto ei ole verkossa. Ja etsin juuri muokkaamani "index.html" tiedoston.
 
 ![validointia](images/h3_validointia2.png)
+
+Tuloksena tuli pieniä herjauksia kielen ja ylimääräisen "/" merkin takia. Tein muutokset "index.html" tiedostoon. Eli lisäsin "lang=en" ja poistin ylimääräisen "/".
+
+![validointia](images/h3_validointia3.png)
+
+Tein validointi testin uudestaan.
+
+![validointia](images/h3_validointia4.png)
+
+Ei herjausta validointi onnistui.
 
 ### f) esimerkki "curl -I" ja "curl" komennosta
 
