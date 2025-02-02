@@ -91,7 +91,7 @@ Sitten testasin miltä näyttää päivittää localhost selaimesta painamalla "
 
 ![forbidden](images/h3_forbidden.png)
 
-Ei toiminut, joten eikun selvittämään. Aloitin lokitiedostoja tutkimalla komennolla "$ sudo tail /var/log/apache2/access.log" Lokeista selvisi, apache ei suorita hakuja, koska lokit eivät päivittyneet, vaikka sivustoa yritti päivittää "shif + refresh". Forbidden, joka tapauksessa viittaa siihen, että apache toimii. Tarkistin ensimmäiseksi configure tiedoston yläpuolella olevasta kuvasta, näyttää oikealta. Sitten siirryin katsomaan itse sivusto rakennetta "/pubclic_html/" hakemistoon ja täälläpä se virhe olikin.
+Ei toiminut, joten eikun selvittämään. Aloitin lokitiedostoja tutkimalla komennolla "$ sudo tail /var/log/apache2/access.log" Lokeista selvisi, apache ei suorita hakuja, koska lokit eivät päivittyneet, vaikka sivustoa yritti päivittää "shif + refresh". Forbidden, joka tapauksessa viittaa siihen, että apache toimii. Tarkistin ensimmäiseksi configure tiedoston komennolla "$ micro /etc/apache2/sites-available/hattu.example.com.conf". Oikealta näytti. Sitten siirryin katsomaan itse sivusto rakennetta "/pubclic_html/" hakemistoon ja täälläpä se virhe olikin.
 
 ![selvitysta](images/h3_selvitys.png)
 
