@@ -58,7 +58,7 @@ Aloitin tämän osion 18.45
 
 Ensiksi navigoin apachen "sites-available" hakemistoon komennolla "$ cd /etc/apache2/sites-available".
 
-![nav](images/nav.png)
+![nav](images/nav_apa.png)
 
 Tämän jälkeen tein microlla "sites-available" hakemistoon tiedoston nimeltä "hattu.example.com.conf" komennolla "micro hattu.example.com.conf".
 
