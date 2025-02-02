@@ -19,11 +19,15 @@ Lokitiedostoa "access.log" tutkin seuraavalla komennolla "sudo tail /var/log/apa
 
 Rivien tulkinta:
 
-  "127.0.0.1"                     on IP osoite, mistä pyyntö on lähetetty.
-  "-"                             on nimitunniste, koska tätä ei ole asetettu, niin on se "-".
-  "[28/Jan/2025:19:41:33 +0200]"  Kertoo pyynnön päivämäärän ja ajan.
-  "GET"                           On pyynnön tyyppi. Tässä tapauksessa yritetään hakea jotain mitä, voidaan näyttää.
-  "200"                           Pyynnön status, eli tässä tapuksessa pyyntö on onnistunut ja haluttu objekti näytetään.
+  "127.0.0.1" on IP osoite, mistä pyyntö on lähetetty.
+  
+  "-" on nimitunniste, koska tätä ei ole asetettu, niin on se "-".
+  
+  "[28/Jan/2025:19:41:33 +0200]" Kertoo pyynnön päivämäärän ja ajan.
+  
+  "GET" On pyynnön tyyppi. Tässä tapauksessa yritetään hakea jotain mitä, voidaan näyttää.
+  
+  "200" Pyynnön status, eli tässä tapuksessa pyyntö on onnistunut ja haluttu objekti näytetään.
 
   
 ### c) Etusivu uusiksi
