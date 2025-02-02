@@ -158,6 +158,10 @@ Tein validointi testin uudestaan.
 
 Ei herjausta validointi onnistui.
 
+![validointia](images/h3.hattuvalidi.png)
+
+Yllä oleva kuva on "hattu.example.com" validoinnin jälkeen.
+
 ### f) esimerkki "curl -I" ja "curl" komennosta
 
 Aloin tekemään tätä noin klo. 23.00
