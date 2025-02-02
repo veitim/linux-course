@@ -89,11 +89,11 @@ Kuten näkyy, ei toiminut, koska oli unohtunut "sudo" edestä. Seuraavaksi potka
 
 Sitten testasin miltä näyttää päivittää localhost selaimesta painamalla "shift + refresh"
 
-![forbidden](images/forbidden.png)
+![forbidden](images/h3_forbidden.png)
 
 Ei toiminut, joten eikun selvittämään. Aloitin lokitiedostoja tutkimalla komennolla "$ sudo tail /var/log/apache2/access.log" Lokeista selvisi, apache ei suorita hakuja, koska lokit eivät päivittyneet, vaikka sivustoa yritti päivittää "shif + refresh". Forbidden, joka tapauksessa viittaa siihen, että apache toimii. Tarkistin ensimmäiseksi configure tiedoston yläpuolella olevasta kuvasta, näyttää oikealta. Sitten siirryin katsomaan itse sivusto rakennetta "/pubclic_html/" hakemistoon ja täälläpä se virhe olikin.
 
-![selvitysta](images/sel.png)
+![selvitysta](images/h3_selvitys.png)
 
 ### e) HTML5 sivu
 
