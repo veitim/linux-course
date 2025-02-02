@@ -1,14 +1,21 @@
 # h3_hello_web_server
-
+Tehty 2.2.2025
 Tämä harjoitus on osana Tero Karvisen kurssitoteutusta Linux Palvelimet 2025 alkukevät.
 Enimmäkseen tehtävää tehdessä on käytetty Tero Karvisen kurssimateriaaleja, jotka löytyvät seuraavalta sivustolta: https://terokarvinen.com/linux-palvelimet/.
 
 ### x) tiivistys
 
 Name-based Virtual Host Support (The Apache Software Foundation)
-* tsädäm
+* Nimipohjainen virtuaalinen isännöinti mahdollistaa yhdelle IP-osoitteelle monta isäntää. IP-pohjaisessa, jokaisella isännällä oma IP.
+* Nimipohjaista on yleensä helpompi käyttää ja ei tosiaan tarvitse useita eri IP-osoitteita.
+* Pyyntö tapahtuu nimipohjaisessa siten, että palvelin vertailee ServerNamea sekä ServerAliasta ja valitsee näiden perusteella oikean isännän, vaikka IP-osoite onkin sama.
 
-Name Based Virtual Hosts on Apache (Tero Karvinen 2018)
+Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address (Tero Karvinen 2018)
+* Komento: "$ sudo apt-get -y install apache2" asentaa apachen.
+* Komento: "$ sudo systemctl restart apache2" uudelleen käynnistää apachen.
+* Komento: "$ sudo a2ensite <sivu>" Tekee aktivoi sivuston (näkyy "/sites-enabled" hakemistossa).
+* Komento: "$ sudoedit /etc/hosts" Tätä kautta voidaan simuloida nimipalvelua.
+
 
 ### a) Apachen asennus
 Aloitin tämän klo. 17.30
@@ -170,3 +177,5 @@ https://terokarvinen.com/linux-palvelimet/
 https://www.linux.fi/wiki/Portaali:Komentorivi
 https://httpd.apache.org/docs/2.4/logs.html
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent/Firefox
+https://httpd.apache.org/docs/2.4/vhosts/name-based.html
+https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
