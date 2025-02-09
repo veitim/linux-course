@@ -24,10 +24,7 @@ Tehtävää tehdessä on kätetty Tero Karvisen sivustolta löytyviä materiaale
 * Käyttäjän lisäät komennolla "$ sudo adduser <user>" ja sudo oikeudet annat komennolla "$ sudo adduser <user> sudo" (lisää käyttäjän sudo nimiseen ryhmään, jos on esim. ryhmä nimeltä admin. Vaihda sudo adminiksi "$ sudo adduser <user> admin").
 * Muista päivittää kaikki komennoilla "$ sudo apt-get update" ja "$ sudo apt-get upgrade"
 * Tapa poistaa root-tunnukselta salasanan käyttö "$ sudo usermod --lock root"
-* Tapa poistaa root-tunnukselta kirjautuminen "$ sudoedit /etc/ssh/sshd_config
-    # ...
-    PermitRootLogin no
-    # ..."
+* Tapa poistaa root-tunnukselta kirjautuminen "$ sudoedit /etc/ssh/sshd_config" ja sieltä "PermitRootLogin no"
 
 ### a) Virtuaalipalvelin
 Aloitin tämän osion klo. 15.00
