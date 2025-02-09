@@ -87,7 +87,7 @@ Seuraavaksi kopioin root käyttäjän .ssh hakemiston uudelle käyttäjälle, jo
 
 Aloin lukemaan opettajan vinkkiosiota ja täältä löytyi toinen komento "sudo chown -R timo:timo /home/timo/", jota kokeilin. Ja tämän jälkeen kirjautuminen omilla tunnuksilla onnistui.
 
-![alku](images/h4_testaus.png)
+![alku](images/h4_chow.png)
 
 Sitten lähdin sulkemaan root-tunnusta. Aloitin komennolla "sudo usermod --lock root" (olisi ehkä voinut testata voiko root-tunnuksella tehdä salasanaa vaativia toiminteita) ja tämän jälkeen käytin komentoa "sudo mv -nv /root/.ssh/root/DISABLED-ssh/".
 
@@ -97,7 +97,7 @@ Hyvä homma, että jälkimmäinne komento ei mennyt läpi. Korjasin komennon "su
 
 ![alku](images/h4_rootkii.png)
 
-Eikä se toimikkaan!
+Root-tunnus ei toiminut!
 
 ### c) weppipalvelin omalle virtuaalipalvelimelle
 
