@@ -1,7 +1,7 @@
 # Maailma Kuulee
 Tehty 9.2.2025
 
-Tässä työssä o
+Tehtävää tehdessä on kätetty Tero Karvisen sivustolta löytyviä materiaaleja "https://terokarvinen.com/linux-palvelimet/".
 
 #### Rauta
 
@@ -129,11 +129,14 @@ Riviltä 7 puuttuu hakemistopolku. Lisäsin sen.
 
 ![c](images/h4_c_confkorjattu.png)
 
-Kokeilin apachen uudeelleen käynnistystä "$ sudo systemctl restart apache2" se toimi, joten kokeilin sivustoa komennolla "$ curl localhost". Ei toiminut vaan antoi virheeksi "forbidden".
+Kokeilin apachen uudeelleen käynnistystä "$ sudo systemctl restart apache2" se toimi, joten kokeilin sivustoa komennolla "$ curl localhost". Ei toiminut vaan antoi virheeksi "forbidden". Kävin läpi, että kaikki on oikein ja löysin aikaisemman viikon vinkki osiosta pykälän "Kotisivu kielletty (403 Forbidden)? 'chmod ugo+x $HOME $HOME/public_html/', 'ls -ld $HOME $HOME/public_html/'", ja testasin kyseisiä komentoja "$ chmod ugo+x $HOME $HOME/public_html/" sekä "ls -ld $HOME $HOME/public_html/".
 
-![c](images/h4_c_vikailua.png)
+![c](images/h4_c_vikailu.png)
 
+Lähti toimimaan. Kokeilin vielä selaimeella sekä puhelimella kirjaamalla IP-osoitteen hakukenttään.
 
+![c](images/h4_c_munsivuhtml.png)
 
+Mitä tästä opin on se, että tee pieni pala kerralla ja testaa tämän toiminta heti.
 
 ### d) 
