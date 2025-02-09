@@ -44,7 +44,7 @@ Julkisen avaimen lisäsin "Login Methodiin" microa hyödyntäen. Ensiksi navigoi
 
 ![deploy](images/h4_julkisenavaimenlisays.png)
 
-Nimeäminen
+Palvelimen nimeäminen
 
 ![deploy](images/h4_conf.png)
 
