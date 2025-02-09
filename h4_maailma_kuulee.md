@@ -89,7 +89,7 @@ Seuraavaksi lähdin laittamaan palomuuria päälle. Aloitin sillä, että yritin
 ![alku](images/h4_alku1.png)
 
 Sitten kokeilin laittaa uudestaan reikiä palomuuriin ennen tämän käynnistämistä. Neuroottisesti avasin vielä 80 portin komennolla "sudo ufw allow 80/tcp" Ja sitten laitoin palomuurin päälle "sudo ufw enable". Seuraavaksi boottasin palvelimen komennolla "sudo systemctl reboot".
-Kirjauduin takaisin palvelimelle komennolla "$ ssh root@185.26.51.157" ja ajoin vielä seuraavat komennot varmuudeksi "sudo apt-get update" ja "sudo apt-get dist-upgrade", jotta varmasti kaikki on päivitetty.
+Kirjauduin takaisin palvelimelle komennolla "$ ssh root@185.26.51.157" ja ajoin vielä seuraavat komennot varmuudeksi "sudo apt-get update", "sudo apt-get upgrade ja "sudo apt-get dist-upgrade", jotta varmasti kaikki on päivitetty.
 
 ![alku](images/h4_reiat.png)
 
