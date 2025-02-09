@@ -52,8 +52,9 @@ Yhteenveto
 
 ![deploy](images/h4_summary.png)
 
+Sitten käynnistin palvelimen "Deploy" painikkeesta ja sehän onnistui.
 
-
+![deploy](images/h4_palvelinpaalla.png)
 
 ### b) alkutoimet
 
