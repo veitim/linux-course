@@ -109,9 +109,15 @@ Ensiksi tein uuden configure tiedoston komennolla "$ sudoedit /etc/apache2/sites
 
 ![c](images/h4_c_polunteko.png)
 
-Tämän jälkeen navigoin hakemistoon komennolla "cd /etc/apache2/sites-enabled" ja deaktivoin oletus sivun komennolla "$ sudo a2dissite 000-default.conf". ja tarkistin komennolla "$ ls /etc/apache2/sites-available" sivun, minkä halusin aktivoida. Ja aktivoin oman sivuni komennolla "$ sudo a2ensite munsivu.conf.com". Tarkistin aktiivisen sivun komennolla "$ ls /etc/apache2/sites-enabled"
+Tämän jälkeen navigoin hakemistoon komennolla "cd /etc/apache2/sites-enabled" ja deaktivoin oletus sivun komennolla "$ sudo a2dissite 000-default.conf". ja tarkistin komennolla "$ ls /etc/apache2/sites-available" sivun, minkä halusin aktivoida. Ja yritin aktivoida oman sivuni komennolla "$ sudo a2ensite munsivu.conf.com". Ei toiminut. 
 
-Olin tehnyt virheen tässä, mistä unohdin ottaa kuvan. Virhehän on tuo configure tiedosto, eli olen tehnyt "munsivu.conf.com", kun olisi pitänyt tehdä "munsivu.com.conf". Apache haluaa lukea conf tiedoston ymmärtääkseni. Korjauksen suoritin seuraavasti. Ensiksi navigoin hakemistoon "/etc/apache2/sites-available", jonka jälkeen käytin komentoa "$ sudo mv munsivu.conf.com munsivu.com.conf" ja tarkistin "$ sudoedit munsivu.com.conf", että sisältö on oikein. 
+Unohdin ottaa kuvat täsät vaiheesta, mutta virhehän on tuo configure tiedosto, eli olen tehnyt "munsivu.conf.com", kun olisi pitänyt tehdä "munsivu.com.conf".
+
+Toistin virheen jokatapauksessa tekemällä testitiedoston ".com" päätteellä ja yritin tämän aktivoida. Lopputulos oli seuraava. 
+
+![c](images/h4_c_simulointi.png)
+
+Korjauksen suoritin seuraavasti. Ensiksi navigoin hakemistoon "/etc/apache2/sites-available", jonka jälkeen käytin komentoa "$ sudo mv munsivu.conf.com munsivu.com.conf" ja tarkistin "$ sudoedit munsivu.com.conf".
 
 Sitten lähdin testailemaan. Aloitin demonin potkaisulla "$ sudo systemctl restart apache2"
 
@@ -129,7 +135,7 @@ Riviltä 7 puuttuu hakemistopolku. Lisäsin sen.
 
 ![c](images/h4_c_confkorjattu.png)
 
-Kokeilin apachen uudeelleen käynnistystä "$ sudo systemctl restart apache2" se toimi, joten kokeilin sivustoa komennolla "$ curl localhost". Ei toiminut vaan antoi virheeksi "forbidden". Kävin läpi, että kaikki on oikein ja löysin aikaisemman viikon vinkki osiosta pykälän "Kotisivu kielletty (403 Forbidden)? 'chmod ugo+x $HOME $HOME/public_html/', 'ls -ld $HOME $HOME/public_html/'", ja testasin kyseisiä komentoja "$ chmod ugo+x $HOME $HOME/public_html/" sekä "ls -ld $HOME $HOME/public_html/".
+Kokeilin apachen uudeelleen käynnistystä "$ sudo systemctl restart apache2" se toimi, joten kokeilin sivustoa komennolla "$ curl localhost". Ei toiminut vaan antoi virheeksi "forbidden". Kävin läpi, että kaikki on oikein ja löysin aikaisemman viikon vinkki osiosta pykälän "Kotisivu kielletty (403 Forbidden)?, ja testasin komentoja "$ chmod ugo+x $HOME $HOME/public_html/" sekä "ls -ld $HOME $HOME/public_html/".
 
 ![c](images/h4_c_vikailu.png)
 
