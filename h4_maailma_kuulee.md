@@ -93,12 +93,47 @@ Sitten lähdin sulkemaan root-tunnusta. Aloitin komennolla "sudo usermod --lock 
 
 ![alku](images/h4_rootkii1.png)
 
-Hyvä homma, että jälkimmäinne komento ei mennyt läpi. Korjasin komennon "sudo mv -nv /root/.ssh /root/DISABLED-ssh/" Eli lisäsin välilyönnin, jotta "root/.ssh" hakemisto muuttui seuraavaksi "root/DISABLED-ssh/". Eli nyt ei pitäisi olla .ssh hakemistoa rootilla, mistä hakea avainta. Näin ollen root-tunnuksen ei pitäisi enää toimia.
+Hyvä homma, että jälkimmäinne komento ei mennyt läpi. Korjasin komennon "sudo mv -nv /root/.ssh /root/DISABLED-ssh/" Eli lisäsin välilyönnin, jotta "root/.ssh" hakemisto muuttui seuraavaksi "root/DISABLED-ssh/". Eli nyt ei pitäisi olla .ssh hakemistoa root-tunnusta varten, mistä hakea avainta. Näin ollen root-tunnuksen ei pitäisi enää toimia.
 
 ![alku](images/h4_rootkii.png)
 
 Root-tunnus ei toiminut!
 
 ### c) weppipalvelin omalle virtuaalipalvelimelle
+Aloitin tekemään tätä osiota klo. 20.00
+
+Aloitin apachen asentamisesta palvelimelle komennolla "$ sudo apt-get install apache2"
+
+Tämän jälkeen otin aikaisemman viikon raportin auki (https://github.com/veitim/linux-course/blob/main/h3_hello_web_server.md, tehty 2.2.2025) ja toistin samat asiat melkeinpä.
+Ensiksi tein uuden configure tiedoston komennolla "$ sudoedit /etc/apache2/sites-available/munsivu.conf.com". Tämän jälkeen tein kotihakemistoon "public_html" hakemiston ja sen sisälle sivusto hakemiston "munsivu.com" ja tämän sisälle index.html tekstitiedoston, jonne kirjasin "MUN SIVU!! AAAAAA".
+
+![c](images/h4_c_polunteko.png)
+
+Tämän jälkeen navigoin hakemistoon komennolla "cd /etc/apache2/sites-enabled" ja deaktivoin oletus sivun komennolla "$ sudo a2dissite 000-default.conf". ja tarkistin komennolla "$ ls /etc/apache2/sites-available" sivun, minkä halusin aktivoida. Ja aktivoin oman sivuni komennolla "$ sudo a2ensite munsivu.conf.com". Tarkistin aktiivisen sivun komennolla "$ ls /etc/apache2/sites-enabled"
+
+Olin tehnyt virheen tässä, mistä unohdin ottaa kuvan. Virhehän on tuo configure tiedosto, eli olen tehnyt "munsivu.conf.com", kun olisi pitänyt tehdä "munsivu.com.conf". Apache haluaa lukea conf tiedoston ymmärtääkseni. Korjauksen suoritin seuraavasti. Ensiksi navigoin hakemistoon "/etc/apache2/sites-available", jonka jälkeen käytin komentoa "$ sudo mv munsivu.conf.com munsivu.com.conf" ja tarkistin "$ sudoedit munsivu.com.conf", että sisältö on oikein. 
+
+Sitten lähdin testailemaan. Aloitin demonin potkaisulla "$ sudo systemctl restart apache2"
+
+![c](images/h4_c_yritetaan.png)
+
+Jotain vikaa selkeästi, kun ei toimi, joten kokeilin vikailmoituksessa esiintyvää komentoa seuraavasti "sudo journalctl -xeu apache2.service"
+
+![c](images/h4_c_tutkitaan.png)
+
+Eli rivillä 7 tiedostossa "munsivu.com.conf" on jotain vikaa. Löytyi, kun avasi tiedoston komennolla "$ sudoedit /etc/apache2/sites-available/munsivu.com.conf"
+
+![c](images/h4_c_confvika.png)
+
+Riviltä 7 puuttuu hakemistopolku. Lisäsin sen.
+
+![c](images/h4_c_confkorjattu.png)
+
+Kokeilin apachen uudeelleen käynnistystä "$ sudo systemctl restart apache2" se toimi, joten kokeilin sivustoa komennolla "$ curl localhost". Ei toiminut vaan antoi virheeksi "forbidden".
+
+![c](images/h4_c_vikailua.png)
+
+
+
 
 ### d) 
