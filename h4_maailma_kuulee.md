@@ -85,7 +85,7 @@ Seuraavaksi kopioin root käyttäjän .ssh hakemiston uudelle käyttäjälle, jo
 
 ![alku](images/h4_herjaus.png)
 
-Aloin lukemaan opettajan vinkkiosiota ja täältä löytyi toinen komento "sudo chown -R timo:timo /home/timo/", jota kokeilin. Ja tämän jälkeen kirjautuminen omilla tunnuksilla onnistui.
+Kävin uudestaan opettajan vinkkiosion lävitse ja täältä löytyi toinen komento "sudo chown -R timo:timo /home/timo/", jota kokeilin. Ja tämän jälkeen kirjautuminen omilla tunnuksilla onnistui.
 
 ![alku](images/h4_chow.png)
 
