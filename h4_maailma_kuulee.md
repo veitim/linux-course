@@ -83,7 +83,7 @@ Sitten lisäsin käyttäjän järjestelmään komennolla "sudo adduser timo" lis
 
 Seuraavaksi kopioin root käyttäjän .ssh hakemiston uudelle käyttäjälle, jotta voisin tällä kirjautua jatkossa järjestelmään komennolla "cp -n -r /root/.ssh /home/timo/" "Sitten kokeilin kirjautua uudella käyttäjällä sisälle, ei onnistunut.
 
-![alku](images/h4_.png)
+![alku](images/h4_herjaus.png)
 
 Aloin lukemaan opettajan vinkkiosiota ja täältä löytyi toinen komento "sudo chown -R timo:timo /home/timo/", jota kokeilin. Ja tämän jälkeen kirjautuminen omilla tunnuksilla onnistui.
 
