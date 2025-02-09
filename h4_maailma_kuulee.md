@@ -3,10 +3,31 @@ Tehty 9.2.2025
 
 Tehtävää tehdessä on kätetty Tero Karvisen sivustolta löytyviä materiaaleja "https://terokarvinen.com/linux-palvelimet/".
 
-#### Rauta
-
-
 ### x) Tiivistelmä
+#### Susanna Lehto 2022: Teoriasta käytäntöön pilvipalvelimen avulla (h4)
+##### a) Pilvipalvelimen vuokraus ja asennus 
+* GitHub educationin avulla opiskelija voi saada ilmaisen palvelimen DigitalOceanin kautta, ainakin väliaikaisesti.
+* Namecheapilta voi saada domain nimen. Eli nimen, jolla voi osoitetta hakea verkosta.
+* Tarkista ostoskorit, jotta voit olla varma ettei tule ikäviä yllätyksiä maksun yhteydessä.
+##### d) Palvelin suojaan palomuurilla
+* "$ ssh root@<palvelimen-ip>" komennolla kirjaudutaan palvelimelle.
+* Reiät jätetään palomuuriin ennenkuin tämä käynnistetään.
+##### e) Kotisivut palvelimelle
+* Komennolla "$ sudo a2enmod userdir" aktivoidaan userdir-moduuli.
+##### f) Palvelimen ohjelmien päivitys
+* Komennoilla "$ sudo apt-get update", "$ sudo apt-get upgrade" ja "$ sudo apt-get dist-upgrade" päivitetään palvelimen ohjelmat.
+* Ensiksi pitää kirjautua palvelimelle.
+
+#### Tero Karvinen 2017: First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS
+* Reiän palomuuriin saat komennolla "$ sudo ufw allow 22/tcp"
+* Palomuurin aktivoit komennolla "$ sudo ufw enable"
+* Käyttäjän lisäät komennolla "$ sudo adduser <user>" ja sudo oikeudet annat komennolla "$ sudo adduser <user> sudo" (lisää käyttäjän sudo nimiseen ryhmään, jos on esim. ryhmä nimeltä admin. Vaihda sudo adminiksi "$ sudo adduser <user> admin").
+* Muista päivittää kaikki komennoilla "$ sudo apt-get update" ja "$ sudo apt-get upgrade"
+* Tapa poistaa root-tunnukselta salasanan käyttö "$ sudo usermod --lock root"
+* Tapa poistaa root-tunnukselta kirjautuminen "$ sudoedit /etc/ssh/sshd_config
+    # ...
+    PermitRootLogin no
+    # ..."
 
 ### a) Virtuaalipalvelin
 Aloitin tämän osion klo. 15.00
@@ -104,7 +125,7 @@ Aloitin tekemään tätä osiota klo. 20.00
 
 Aloitin apachen asentamisesta palvelimelle komennolla "$ sudo apt-get install apache2"
 
-Tämän jälkeen otin aikaisemman viikon raportin auki (https://github.com/veitim/linux-course/blob/main/h3_hello_web_server.md, tehty 2.2.2025) ja toistin samat asiat melkeinpä.
+Tämän jälkeen otin aikaisemman viikon raportin auki (https://github.com/veitim/linux-course/blob/main/h3_hello_web_server.md, tehty 2.2.2025) ja yritin toistaa samat toiminnot eri nimikkeillä.
 Ensiksi tein uuden configure tiedoston komennolla "$ sudoedit /etc/apache2/sites-available/munsivu.conf.com". Tämän jälkeen tein kotihakemistoon "public_html" hakemiston ja sen sisälle sivusto hakemiston "munsivu.com" ja tämän sisälle index.html tekstitiedoston, jonne kirjasin "MUN SIVU!! AAAAAA".
 
 ![c](images/h4_c_polunteko.png)
@@ -135,14 +156,21 @@ Riviltä 7 puuttuu hakemistopolku. Lisäsin sen.
 
 ![c](images/h4_c_confkorjattu.png)
 
-Kokeilin apachen uudeelleen käynnistystä "$ sudo systemctl restart apache2" se toimi, joten kokeilin sivustoa komennolla "$ curl localhost". Ei toiminut vaan antoi virheeksi "forbidden". Kävin läpi, että kaikki on oikein ja löysin aikaisemman viikon vinkki osiosta pykälän "Kotisivu kielletty (403 Forbidden)?, ja testasin komentoja "$ chmod ugo+x $HOME $HOME/public_html/" sekä "ls -ld $HOME $HOME/public_html/".
+Kokeilin apachen uudeelleen käynnistystä "$ sudo systemctl restart apache2" se toimi, joten kokeilin sivustoa komennolla "$ curl localhost". Ei toiminut vaan antoi virheeksi "forbidden". Terminaaliin komento "$ sudo tail /var/log/apache2/error.log"
+
+![c](images/h4_c_loki.png)
+
+Tutkinnan jälkeen Tero Karvisen h3 tehtävän vinkkiosiosta löytyi apuja kohdasta "Kotisivu kielletty (403 Forbidden)?. Testasin komentoja "$ chmod ugo+x $HOME $HOME/public_html/" sekä "ls -ld $HOME $HOME/public_html/". Ja uudelleenkäynnistin apachen.
 
 ![c](images/h4_c_vikailu.png)
 
-Lähti toimimaan. Kokeilin vielä selaimeella sekä puhelimella kirjaamalla IP-osoitteen hakukenttään.
+Lähti toimimaan. Kokeilin vielä selaimella sekä puhelimella kirjaamalla IP-osoitteen hakukenttään.
 
 ![c](images/h4_c_munsivuhtml.png)
 
 Mitä tästä opin on se, että tee pieni pala kerralla ja testaa tämän toiminta heti.
 
-### d) 
+### Lähteet
+https://terokarvinen.com/linux-palvelimet/
+https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
+https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/
