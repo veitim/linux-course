@@ -75,8 +75,6 @@ Kirjauduin takaisin palvelimelle komennolla "$ ssh root@185.26.51.157" ja ajoin 
 
 ![alku](images/h4_reiat.png)
 
-![alku](images/h4_.png)
-
 Sitten lisäsin käyttäjän järjestelmään komennolla "sudo adduser timo" lisäsin käyttäjän sudo ryhmään komennolla "sudo adduser timo sudo".
 
 ![alku](images/h4.uusikayttaja.png)
