@@ -58,6 +58,25 @@ Sitten käynnistin palvelimen "Deploy" painikkeesta ja sehän onnistui.
 
 ### b) alkutoimet
 
+Aloitin tämän osion klo. 16.15
+
+Lueskelin tarkemmin Tero Karvisen materiaalit aiheesta sivustolta, "https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/" sekä kävin läpi tehtävänannossa olevat vinkit ja lähdin etenemään.
+
+Aloitin kirjautumalla palvelimelle komennolla "$ ssh root@185.26.51.157" IP osoite löytyi juuri perustamani palvelinpalvelun "servers/server list" välilehdeltä.
+
+Seuraavaksi lähdin laittamaan palomuuria päälle. Aloitin sillä, että yritin jättää reiät palomuuriin komennolla "sudo ufw allow 22/tcp", ei onnistunut sillä en ollut asentanut palomuuria tai muitakaan paketteja. Joten aloitin sittenkin näillä toiminteilla. Eli aloitin komennolla "sudo apt-get install" ja jatkoin "sudo apt-get install ufw".
+
+![alku](images/h4_.png)
+
+Sitten kokeilin laittaa uudestaan reikiä palomuuriin ennen tämän käynnistämistä.
+
+![alku](images/h4_.png)
+
+Neuroottisesti avasin vielä 80 portin komennolla "sudo ufw allow 80/tcp" Ja sitten laitoin palomuurin päälle "sudo ufw enable". Seuraavaksi boottasin palvelimen komennolla "sudo systemctl reboot".
+Kirjauduin takaisin palvelimelle komennolla "$ ssh root@185.26.51.157" ja ajoin vielä seuraavat komennot varmuudeksi "sudo apt-get update" ja "sudo apt-get dist-upgrade", jotta varmasti kaikki on päivitetty.
+
+![alku](images/h4_.png)
+
 ### c) weppipalvelin omalle virtuaalipalvelimelle
 
 ### d) 
