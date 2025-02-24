@@ -34,7 +34,7 @@ Eli "tunari" ja "timo" pitäisi nyt toimia jotenkin.
 
 ![h5d](images/h5_d_tunari.png)
 
-tunari.timoveijlainen.com ainakin ohjaa sivustoni etusivulle. (niin myös timo.timoveijalainen.com)
+tunari.timoveijalainen.com ainakin ohjaa sivustoni etusivulle. (niin myös timo.timoveijalainen.com)
 En varmaan nyt ole ymmärtänyt alidomainia oikein.
 
 ### e)
