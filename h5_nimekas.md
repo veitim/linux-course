@@ -11,7 +11,7 @@ Tänne kävin laittamassa ohjaukset palvelimelleni käyttäen tämän ip-osoitet
 
 Nimipalvelu pelaa.
 
-### c)
+### c) Sivusto
 Aloitin tästä osiosta, koska namecheap sivustolla oli huolto käynnissä. Aloitin tekemisen 24.2.2025 klo. 15.00
 
 Tein alasivut "blog.html" ja "projects.html" munsivu.com hakemistoon, "index.html" oli jo aiemmin tehtynä. Html-pohjana on käytetty Tero Karvisen materiaaleista löytyvä HTML-5 sivupohja "https://terokarvinen.com/2012/short-html5-page/". Koska pystyin sivut tekemään ja näihin muokkauksia tekemään ilman sudoa, niin ymmärtääkseni nyt ei ole pääkäyttäjän oikeuksia käytetty.
@@ -24,5 +24,17 @@ Eli kopioin "index.html" ja tein tästä "projects.html". Samalla tapaa tein "bl
 
 ![h5c](images/h5_c_linkit.png)
 
-### d)
+### d) Alidomain
+
+Kävin lisäämässä namecheappiin kaksi uutta "host" nimikettä advanced DNS osioon.
+
+![h5d](imgaes/h5_d_namecheap.png)
+
+Eli "tunari" ja "timo" pitäisi nyt toimia jotenkin.
+
+![h5d](imgaes/h5_d_namecheap.png)
+
+tunari.timoveijlainen.com ainakin ohjaa sivustoni etusivulle. (niin myös timo.timoveijalainen.com)
+En varmaan nyt ole ymmärtänyt alidomainia oikein.
+
 ### e)
