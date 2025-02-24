@@ -73,3 +73,26 @@ Seuraavaksi tutkailin Tero Karvisen sivustoa "terokarvinen.com"
 Viimeiseksi tutkin sivustoa "youtube.com"
 
 ![h5e](images/h5_e_youtube.png)
+
+Host komennolla ainakin näkee nimeä vastaavan ip-osoitteen sekä sähköpostipalvelun.
+
+Dig komennon tuloksia en osannut juurikaan kommentoida, joten tutkin tehtävänannon vinkkiosiota ja sieltä löytyikin komento "man dig". Komento "man dig" avaa "dig" komentoa koskevan käyttöoppaan. Lueskelin tätä ja sitten vielä seuraavalta sivustolta löysin lisä apua: "https://www.howtogeek.com/663056/how-to-use-the-dig-command-on-linux/"
+
+Suoritin haut uudestaan käyttäen "any" liitettä. 
+
+![h5e](images/h5_e_omaany.png)
+
+![h5e](images/h5_e_namecheapany.png)
+
+![h5e](images/h5_e_terokarvinenany.png)
+
+![h5e](images/h5_e_youtubeany.png)
+
+Elikkäs, jos jotain ymmärrän oman sivuston ja namecheap sivuston väliltä, niin timoveijalainen.com osoitteessa on 2 subdomainia "timo ja tunari" ja näiden hakujen perusteella namecheap ei käytä subdomaineja. 
+
+
+### Lähteet
+
+https://terokarvinen.com/linux-palvelimet/
+https://www.howtogeek.com/663056/how-to-use-the-dig-command-on-linux/
+https://www.linux.fi/wiki/Etusivu
