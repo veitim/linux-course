@@ -1,3 +1,9 @@
+## h5_nimekäs
+
+Tämän tehtävän aloituksessa oli lievästi ongelmia, sillä palvelimeni oli kadonnut upcloudista (krediitit olivat loppuneet, niin oletan tästä syystä tämän kadonneen) , joten jouduin tekemaan h4-tehtävän uudestaan.
+
+Tehtää tehtäessä olen käyttänyt enimmäkseen Tero Karvisen tekemiä oppimateriaaleja, mitkä löytyvät sivustolta: "https://terokarvinen.com/linux-palvelimet/".
+
 ### a ja b) Nimi
 Aloitin tämän osion 24.2.2025 klo. 19.00. namecheap sivuston huolto ohitse.
 
@@ -25,6 +31,7 @@ Eli kopioin "index.html" ja tein tästä "projects.html". Samalla tapaa tein "bl
 ![h5c](images/h5_c_linkit.png)
 
 ### d) Alidomain
+Aloitin tämän osion klo. 20.00
 
 Kävin lisäämässä namecheappiin kaksi uutta "host" nimikettä advanced DNS osioon.
 
@@ -37,4 +44,6 @@ Eli "tunari" ja "timo" pitäisi nyt toimia jotenkin.
 tunari.timoveijalainen.com ainakin ohjaa sivustoni etusivulle. (niin myös timo.timoveijalainen.com)
 En varmaan nyt ole ymmärtänyt alidomainia oikein.
 
-### e)
+### e) tutkintaa "dig" ja "host" komennoilla.
+Aloitin tämän osion klo. 20.20
+
