@@ -28,11 +28,11 @@ Eli kopioin "index.html" ja tein tästä "projects.html". Samalla tapaa tein "bl
 
 Kävin lisäämässä namecheappiin kaksi uutta "host" nimikettä advanced DNS osioon.
 
-![h5d](imgaes/h5_d_namecheap.png)
+![h5d](images/h5_d_namecheap.png)
 
 Eli "tunari" ja "timo" pitäisi nyt toimia jotenkin.
 
-![h5d](imgaes/h5_d_namecheap.png)
+![h5d](images/h5_d_tunari.png)
 
 tunari.timoveijlainen.com ainakin ohjaa sivustoni etusivulle. (niin myös timo.timoveijalainen.com)
 En varmaan nyt ole ymmärtänyt alidomainia oikein.
