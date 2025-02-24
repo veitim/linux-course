@@ -5,7 +5,7 @@ Elikkä käytin domain-nimeä varten namecheap sivustoa "https://www.namecheap.c
 
 ![h5a](images/h5_a_namecheap.png)
 
-Tänne kävin laittamassa ohjaukset palvelimelle. Sitten testasin, että voiko sivustolleni navigoida käyttäen domain-nimea "timoveijalainen.com"
+Tänne kävin laittamassa ohjaukset palvelimelleni käyttäen tämän ip-osoitetta. Sitten testasin, että voiko sivustolleni navigoida käyttäen domain-nimea "timoveijalainen.com"
 
 ![h5a](images/h5_a_selain.png)
 
