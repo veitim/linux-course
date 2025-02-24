@@ -88,7 +88,17 @@ Suoritin haut uudestaan käyttäen "any" liitettä.
 
 ![h5e](images/h5_e_youtubeany.png)
 
-Elikkäs, jos jotain ymmärrän oman sivuston ja namecheap sivuston väliltä, niin timoveijalainen.com osoitteessa on 2 subdomainia "timo ja tunari" ja näiden hakujen perusteella namecheap ei käytä subdomaineja. 
+Elikkäs ns-tietue viittaa subdomainiin tai domainin delegointiin (uudelleen ohjaus?), eli omalla sivulla on 2 ns tietuetta, mikä pitää paikkansa "timo" ja "tunari". Namecheapilla ei yhtään. Tero Karvisen sivustolla on ns-tietuieta 3 ja youtubella 4.
+
+A-tietue ei näy "any" komennolla namecheap.com tai timoveijalainen.com kohdalla, mutta tämä on palvelimen ip-osoite.
+
+TXT-tietue on tekstitiedosto liittyen domainiin. Voidaan käyttää vähentämään haittasähköpostia. Terokarvinen.com sivustolla näyttäisi yksi tämmöinen olevan.
+
+SOA-tietue valtuutuksen alkutietueet voivat sisältää paljon tietoa verkkotunnuksesta. Täältä löydät ensisijaisen nimipalvelimen, vastuuosapuolen, muutosten aikaleiman, vyöhykkeen päivitysten tiheyden sekä joukon aikarajoja uudelleenyrityksille ja hylkäämisille suora lainaus käännettynä sivulta "https://www.howtogeek.com/663056/how-to-use-the-dig-command-on-linux/"
+
+MX-tietue viittaa sähköpostiin, samat tiedot näkyi host komennolla, jostain syystä vain terokarvinen.com sivustolla näkyym mx-tietue "dig +any" komentoa käyttäen.
+
+AAAA-tietue youtube.com näyttää IPv6 osoitteen.
 
 
 ### Lähteet
