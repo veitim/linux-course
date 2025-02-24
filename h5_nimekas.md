@@ -1,6 +1,7 @@
 ## h5_nimekäs
+Tämä raportti on tehty 24.2.2025
 
-Tämän tehtävän aloituksessa oli lievästi ongelmia, sillä palvelimeni oli kadonnut upcloudista (krediitit olivat loppuneet, niin oletan tästä syystä tämän kadonneen) , joten jouduin tekemaan h4-tehtävän uudestaan.
+Tämän tehtävän aloituksessa oli lievästi ongelmia, sillä palvelimeni oli kadonnut upcloudista (krediitit olivat loppuneet, niin oletan tästä syystä tämän kadonneen) , joten jouduin tekemaan h4-tehtävän uudestaan. Ja vielä ilokseni namecheap palvelu, mitä halusin tätä tehtävää tehdessä käyttää oli huollettavana, mikä esti domainin vuokraamisen.
 
 Tehtää tehtäessä olen käyttänyt enimmäkseen Tero Karvisen tekemiä oppimateriaaleja, mitkä löytyvät sivustolta: "https://terokarvinen.com/linux-palvelimet/".
 
@@ -47,3 +48,28 @@ En varmaan nyt ole ymmärtänyt alidomainia oikein.
 ### e) tutkintaa "dig" ja "host" komennoilla.
 Aloitin tämän osion klo. 20.20
 
+Ensiksi menin www.linux.fi sivustolle ja hain tietoa dig ja host komennoista. Tämän jälkeen lähdin testailemaan komennolla "$ dig timoveijalainen.com" 
+
+![h5e](images/h5_e_dig.png)
+
+Eli komentoa ei ole, joten jotain täytyy asentaa. Hakukoneeseen haku "how to install dig on linux" Tällä haulla tuli seuraava komento "sudo apt-get install dnsutils" Ainakin pienin tutkimsen jälkeen näyttää ihan aidolta.
+
+Asennus toimi ja komento "$ dig timoveijalainen.com" näyttää seuraavalta
+
+![h5e](images/h5_e_dig2.png)
+
+Komento "$ host timoveijalainen.com" näyttää seuraavalta
+
+![h5e](images/h5_e_host.png)
+
+Ja sitten tutkailin samoilla komennoilla namecheap sivustoa.
+
+![h5e](images/h5_e_namecheap.png)
+
+Seuraavaksi tutkailin Tero Karvisen sivustoa "terokarvinen.com"
+
+![h5e](images/h5_e_terokarvinen.png)
+
+Viimeiseksi tutkin sivustoa "youtube.com"
+
+![h5e](images/h5_e_youtube.png)
