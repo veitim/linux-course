@@ -1,6 +1,6 @@
 ## h6 Salataampa
 
-Raportti kirjoitettu 2.3.2025
+Raportti kirjoitettu 2.3.2025 - 3.3.2025
 
 Isäntäkone:
 
@@ -35,6 +35,8 @@ https://go-acme.github.io/lego/usage/cli/obtain-a-certificate/index.html#using-a
 https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#configexample
 
 ### a) TLS-sertifikaatti
+
+Aloitin tämän osion klo. 21.00
 
 Tässä tehtävässä hain sertifikaatin sivustolleni sivustolta https://letsencrypt.org/.
 
@@ -71,7 +73,11 @@ Vieläkin vikaa, muistinkin tässä vaiheessa, että tuo 443 portti pitää avat
 
 "https://timoveijalainen.com/"
 
+Valmis klo. 22.00
+
 ### b) A-rating
+
+Aloitin tämän osion klo. 22.30
 
 Tässä tehtävässä testaan sivustoni tls-luokitusta käyttäen sivustoa "https://www.ssllabs.com/ssltest/"
 
@@ -79,17 +85,29 @@ Testin tulos oli A
 
 ![b](images/h6_b_test.png)
 
-CAA on
+P.Hallam-Baker sanoo DNS CAA:sta seuraavaa:
+
+   The Certification Authority Authorization (CAA) DNS Resource Record
+   allows a DNS domain name holder to specify one or more Certification
+   Authorities (CAs) authorized to issue certificates for that domain.
+   CAA Resource Records allow a public Certification Authority to
+   implement additional controls to reduce the risk of unintended
+   certificate mis-issue.  This document defines the syntax of the CAA
+   record and rules for processing CAA records by certificate issuers.
+   
+Eli voisin halutessani määrittää mitkä tahot voivat sivustolleni sertifikaatteja myöntää. En näe tätä tarpeelliseksi. 
 
 ![b](images/h6_b_test3.png)
 
-Seuraavat weak tulokset selittyvät
+Seuraavat weak tulokset ovat tls 1.2:sta mitkä ovat todennäköisesti vanhenemassa, kun ollaan jo tls 1.3. Eli en näe ongelmaa, kun kaikki tls 1.3 testit ovat mennee hyvin läpi.
 
 ![b](images/h6_b_test2.png)
 
- "fatalhandshake error" Chrome 49 version kanssa. En kuitenkaan näe tässä ongelmaa sillä kyseinen versio on vanha.
+ Fatalhandshake error Chrome 49 version kanssa. En kuitenkaan näe tässä ongelmaa sillä kyseinen versio on vanha.
 
 ![b](images/h6_b_test4.png)
+
+Valmis 23.00
 
 ### Lähteet:
 
@@ -104,3 +122,5 @@ https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#configexample
 https://letsencrypt.org/
 
 https://www.ssllabs.com/ssltest/
+
+https://datatracker.ietf.org/doc/html/rfc6844
