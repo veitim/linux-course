@@ -1,16 +1,19 @@
 ## h6 Salataampa
 
 Isäntäkone:
-Msi GE75 Raider 10sf
 
-OS: Windows 10 Home 64-bit
-RAM: 16gb. 
-CPU: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz (12 CPUs), ~2.6GHz
-GPU: 
+* Malli: Msi GE75 Raider 10sf
+* OS: Windows 10 Home 64-bit
+* RAM: 16gb
+* CPU: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz (12 CPUs), ~2.6GHz
+* GPU: NVIDIA GeForce RTX 2070
+* BIOS: E17E9IMS, 10A
 
 Virtuaalikone:
-OS: Debian/GNU Linux 12 (bookworm) x84_64
-
+* OS: Debian/GNU Linux 12 (bookworm) x84_64
+* RAM: 4gb
+* CPU: 2 processor
+* GPU: 128 MB
 
 ### x) tiivistys
 
