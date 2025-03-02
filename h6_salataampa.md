@@ -1,5 +1,7 @@
 ## h6 Salataampa
 
+Raportti kirjoitettu 2.3.2025
+
 Isäntäkone:
 
 * Malli: Msi GE75 Raider 10sf
