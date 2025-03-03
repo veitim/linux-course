@@ -6,14 +6,14 @@ Isäntäkone:
 
 * Malli: Msi GE75 Raider 10sf
 * OS: Windows 10 Home 64-bit
-* RAM: 16gb
+* RAM: 16 GB
 * CPU: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz (12 CPUs), ~2.6GHz
 * GPU: NVIDIA GeForce RTX 2070
 * BIOS: E17E9IMS, 10A
 
 Virtuaalikone:
 * OS: Debian/GNU Linux 12 (bookworm) x84_64
-* RAM: 4gb
+* RAM: 4 GB
 * CPU: 2 processor
 * GPU: 128 MB
 
@@ -21,15 +21,24 @@ Virtuaalikone:
 
 #### How It Works - Let's Encrypt
 
+* Käyttää ACME protokollaa, jolla saadaan sertifikaatti ilman ihmiskontaktia.
+* Muodostaa avainparin, jolla let's encrypt tunnistaa palvelimen haltijan
+* Avainta hyödyntäen voidaan jatkaa sertifikaattia tai peruuttaa tämä
 
 https://letsencrypt.org/how-it-works/
 
-#### Obtain a Certificate
-
+#### Obtain a Certificate - Using an existing, running web server
+*Jos on palvelin toiminnassa portissa --http tarvitsee myöst --http.webrootin
 
 https://go-acme.github.io/lego/usage/cli/obtain-a-certificate/index.html#using-an-existing-running-web-server
 
-#### SSL/TLS Stron Encryption
+#### SSL/TLS Strong Encryption - Basic Configuration Example
+Seuraavat asetukset pitää löytyä virtualhostista:
+* Portti 443 pitää olla käytössä
+* ServerName "palvelimen nimi"
+* SSLEngine On
+* SSLCertificateFile <polku mistä löytyy .cert/crt tiedosto">
+* SSLCertificateKeyFile <polku mistä löytyy .key tiedosto">
 
 
 https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#configexample
