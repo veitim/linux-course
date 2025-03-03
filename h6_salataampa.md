@@ -1,6 +1,6 @@
 ## h6 Salataampa
 
-Raportti kirjoitettu 2.3.2025 - 3.3.2025
+Raportti kirjoitettu 2.3.2025 - 3.3.2025 Aloitettu 21.00, lopetettu 2.30.
 
 Isäntäkone:
 
