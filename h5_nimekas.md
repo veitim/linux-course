@@ -104,7 +104,7 @@ AAAA-tietue youtube.com näyttää IPv6 osoitteen.
 
 ### Lähteet
 
-Karvinen, Tero: (Linux Palvelimet 2025 alkukevät: https://terokarvinen.com/linux-palvelimet/)
+Karvinen, Tero: Linux Palvelimet 2025 alkukevät - h5 Nimekäs: (https://terokarvinen.com/linux-palvelimet/)
 
 McKay, Dave 2024: (https://www.howtogeek.com/663056/how-to-use-the-dig-command-on-linux/)
 
