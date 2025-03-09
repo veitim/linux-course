@@ -1,6 +1,6 @@
 # h7 Maalisuora
 
-Raportti kirjoitettu 9.3.2025, klo 15.50 - Välisenä aikana
+Raportti kirjoitettu 9.3.2025, klo 15.50 - 10.3.2025, klo. 00.05 Välisenä aikana.
 
 Raportissa on käytetty Tero Karvisen Linux Palvelimet -kurssin materiaaleja, jotka löytyvät seuraavalta sivulta: https://terokarvinen.com/linux-palvelimet/.
 
@@ -155,8 +155,6 @@ Pääkäyttäjänä lisäsin "etc/apache2/sites-available" hakemistoon erkki.com
 ![e](images/h7_erkinconffi.png)
 
 Komennolla "$ sudo a2ensite erkki.com.conf" otin sivun käyttöön ja seuraavaksi tarkistin sivut mitkä olivat aktiivisena komennolla "ls /etc/apache2/sites-enabled". Ja komennolla "sudo a2dissite hattu.example.com.conf" otin toisen sivun pois käytöstä ja tämän jälkeen potkaisin demonia "sudo systemctl restart apache2".
-
-![e](images/h7_erkinconffi.png)
 
 Annoin erkkinä erkin kotihakemistolle komennolla "$ chmod ugo+rwx erkki" oikeudet, jotta apache2 pääsee tänne käsiksi ja voi sivuston lukea (tämä oikeassa ympäristössä väärin, koska nyt myös muut käyttäjät pääsevät erkin hakemistoon vapaasti).  
 
