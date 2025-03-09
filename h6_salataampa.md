@@ -1,6 +1,7 @@
 ## h6 Salataampa
 
 Raportti kirjoitettu 2.3.2025 - 3.3.2025 Aloitettu 21.00, lopetettu 2.30.
+Lähdeluettelo päivitetty 9.3.2025.
 
 Isäntäkone:
 
@@ -120,16 +121,14 @@ Valmis 23.00
 
 ### Lähteet:
 
-https://terokarvinen.com/linux-palvelimet/
+Karvinen, Tero 2025: Linux Palvelimet 2025 alkukevät: (https://terokarvinen.com/linux-palvelimet/)
 
-https://letsencrypt.org/how-it-works/
+Lets encrypt 2024: How it works: (https://letsencrypt.org/how-it-works/)
 
-https://go-acme.github.io/lego/usage/cli/obtain-a-certificate/index.html#using-an-existing-running-web-server
+Lange, Nick, J 2024: Obtain a Certificate(https://go-acme.github.io/lego/usage/cli/obtain-a-certificate/index.html#using-an-existing-running-web-server)
 
-https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#configexample
+The Apache Software Foundation 2025: SSL/TLS Strong Encryption: How-To: (https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#configexample)
 
-https://letsencrypt.org/
+Qualys Inc: SSL Server Test 2025: (https://www.ssllabs.com/ssltest/)
 
-https://www.ssllabs.com/ssltest/
-
-https://datatracker.ietf.org/doc/html/rfc6844
+Baker, P, Hallam-Baker, Internet Engineering Task Force (IETF): DNS Certification Authority Authorization (CAA) Resource Record: (https://datatracker.ietf.org/doc/html/rfc6844)
