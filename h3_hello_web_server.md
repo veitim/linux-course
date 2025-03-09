@@ -3,6 +3,8 @@ Tehty 2.2.2025
 Tämä harjoitus on osana Tero Karvisen kurssitoteutusta Linux Palvelimet 2025 alkukevät.
 Enimmäkseen tehtävää tehdessä on käytetty Tero Karvisen kurssimateriaaleja, jotka löytyvät seuraavalta sivustolta: https://terokarvinen.com/linux-palvelimet/.
 
+Lähdeluettelo päivitetty 9.3.2025
+
 ### x) tiivistys
 
 Name-based Virtual Host Support (The Apache Software Foundation)
@@ -177,9 +179,15 @@ Tämän jälkeen kokeilin komentoja "$ curl localhost", "$ curl -I localhost" ja
 Näyttäisi siltä, että "$ curl" komento näyttää html sivun ja "$ curl -I" näyttää tietoja sivustolta. Mm. serverin tyypin, statuksen, päivämäärän ja ajan milloin komento on suoritettu, milloin sivua on viimeksi muokattu, sivun pituuden ja sisällön tyypin. 
 
 ### Lähteet
-https://terokarvinen.com/linux-palvelimet/
-https://www.linux.fi/wiki/Portaali:Komentorivi
-https://httpd.apache.org/docs/2.4/logs.html
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent/Firefox
-https://httpd.apache.org/docs/2.4/vhosts/name-based.html
-https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
+
+Karvinen, Tero 2025: Linux Palvelimet 2025 alkukevät: (https://terokarvinen.com/linux-palvelimet/)
+
+Linux.fi: (https://www.linux.fi/wiki/Portaali:Komentorivi)
+
+The Apache Software Foundation 2025: Log Files: (https://httpd.apache.org/docs/2.4/logs.html)
+
+The Apache Software Foundation 2025: Name-based Virtual Host Support: (https://httpd.apache.org/docs/2.4/vhosts/name-based.html)
+
+Mozilla Foundation: Firefox user agent string reference: (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent/Firefox)
+
+Karvinen, Tero 2018: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address: (https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/)
