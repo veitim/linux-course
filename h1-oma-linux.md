@@ -1,6 +1,8 @@
 # h1 Oma Linux
 ## Raportin kirjoittaminen
 
+Lähdeluettelo päivitetty 9.3.2025
+
 Raportin täytyy olla toistettavissa sekä täsmällinen. Eli kerrotaan mitä ollaan tehty jä millä, jotta ulkopuolinen voi toistaa samat askeleet. Raportin täytyy myös olla helppolukuinen, sillä vaikealukuista raporttia on hankala sisäistää. Raportissa täytyy myös olla lähdeviittaukset eikä vilppiä saa harrastaa.
 
 ## What is Free Software artikkelin tiivistelmä.
@@ -84,6 +86,9 @@ Tämän jälkeen ylälaidasta "Applications -> File Manager -> VBox_GAs_7.1.4 ja
 Virtuaalikoneen ja linuxin asennus onnistui ilman ongelmia Tero Karvisen sivustolta löytyviä ohjeita noudattamalla. Aloitin asentelut klo. 17.00 ja lopetin 19.30. Asenteluiden ja raportin luomiseen meni noin tunti (välissä tuli tehtyä muita asioita).
 
 ## Reference
-Karvinen, Tero 2021: Install Debian on Virtualbox https://terokarvinen.com/2021/install-debian-on-virtualbox/
 
-The Free Software Foundation: https://www.gnu.org/philosophy/free-sw.html#fs-definition
+Karvinen, Tero 2025: Linux Palvelimet 2025 alkukevät, h1 Oma Linux: (https://terokarvinen.com/linux-palvelimet/)
+
+Karvinen, Tero 2021: Install Debian on Virtualbox: (https://terokarvinen.com/2021/install-debian-on-virtualbox/)
+
+The Free Software Foundation: (https://www.gnu.org/philosophy/free-sw.html#fs-definition)
