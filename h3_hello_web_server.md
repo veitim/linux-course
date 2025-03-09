@@ -180,7 +180,7 @@ Näyttäisi siltä, että "$ curl" komento näyttää html sivun ja "$ curl -I" 
 
 ### Lähteet
 
-Karvinen, Tero 2025: Linux Palvelimet 2025 alkukevät: (https://terokarvinen.com/linux-palvelimet/)
+Karvinen, Tero 2025: Linux Palvelimet 2025 alkukevät, h3 Hello Web Server: (https://terokarvinen.com/linux-palvelimet/)
 
 Linux.fi: (https://www.linux.fi/wiki/Portaali:Komentorivi)
 
