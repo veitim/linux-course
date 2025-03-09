@@ -188,7 +188,7 @@ Vaihdoin SSH-palvelimen kuuntelemaan porttiin 1337/tcp seuraavasti. Löysin sivu
 
 ![e](images/h7portti.png)
 
-Potkaisin demonia ja käynnistin palvelimen uudestaan komennolla "$ sudo systemctl restart ssh"
+Potkaisin demonia ja käynnistin palvelimen uudestaan komennolla "$ sudo systemctl restart ssh" Sivulta : (https://askubuntu.com/questions/103889/how-do-i-restart-the-ssh-service) löysin shh:n restartin.
 
 ![e](images/h7timosivu.png)
 
@@ -211,3 +211,5 @@ Micro-Editor: plugin-channel: (https://github.com/micro-editor/plugin-channel)
 Unkert, Timothy W 2023: How to Install Plugins in the Micro Text Editor: Videolinkki: (https://www.youtube.com/watch?v=oZY8hl4dqqg")
 
 Geeks For Geeks 2023: How to change the default SSH port in Linux :(https://www.geeksforgeeks.org/how-to-change-the-default-ssh-port-in-linux/)
+
+Ask Ubuntu : How do I restart SSH service: (https://askubuntu.com/questions/103889/how-do-i-restart-the-ssh-service)
