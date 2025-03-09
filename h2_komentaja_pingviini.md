@@ -128,7 +128,7 @@ Listasta ilmenee, että käyttöalusta on "virtualbox", ja hyvin pitkälti virut
 
 ## Lähteet
 
-Karvinen, Tero 2025: Linux Palvelimet 2025 alkukevät: (https://terokarvinen.com/linux-palvelimet/)
+Karvinen, Tero 2025: Linux Palvelimet 2025 alkukevät, h2 Komentaja Pingviini: (https://terokarvinen.com/linux-palvelimet/)
 
 Karvinen, Tero 2020: Command Line Basics Revisited: (https://terokarvinen.com/2020/command-line-basics-revisited/)
 
