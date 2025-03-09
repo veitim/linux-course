@@ -196,10 +196,6 @@ Näyttäisi toimivan.
 
 Valmis 23.00
 
-### e) Asenna itsellesi tyhjä virtuaalikone arvioitavaa labraa varten.
-
-
-
 ### Lähteet:
 
 Karvinen, Tero 2025: Linux Palvelimet 2025 alkukevät - h7 Maalisuora: (https://terokarvinen.com/linux-palvelimet/)
@@ -212,4 +208,6 @@ Karvinen, Tero: Final Lab for Linux Palvelimet 2023: (https://terokarvinen.com/2
 
 Micro-Editor: plugin-channel: (https://github.com/micro-editor/plugin-channel)
 
-Unkert, Timothy W 2023: How to Install Plugins in the Micro Text Editor: Videolinkki: (https://www.youtube.com/watch?v=oZY8hl4dqqg"
+Unkert, Timothy W 2023: How to Install Plugins in the Micro Text Editor: Videolinkki: (https://www.youtube.com/watch?v=oZY8hl4dqqg")
+
+Geeks For Geeks 2023: How to change the default SSH port in Linux :(https://www.geeksforgeeks.org/how-to-change-the-default-ssh-port-in-linux/)
