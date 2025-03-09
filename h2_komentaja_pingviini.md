@@ -2,6 +2,8 @@
 Tässä tehdään Tero Karvisen kurssimateriaalista löytyvää tehtävää nimeltä h2 - Komentaja Pingviini.
 Pääasiallisesti tässä on käytetty Tero Karvisen kurssimateriaaleja, jotka löytyvät seuraavalta sivustolta: https://terokarvinen.com/linux-palvelimet/.
 
+Lähdeluettelo päivitetty 9.3.2025
+
 ### x) Tiivistelmä - Command Line Basics Revisited
 
 #### Liikkuminen ja tarkastelu
@@ -126,11 +128,12 @@ Listasta ilmenee, että käyttöalusta on "virtualbox", ja hyvin pitkälti virut
 
 ## Lähteet
 
-https://terokarvinen.com/2020/command-line-basics-revisited/
+Karvinen, Tero 2025: Linux Palvelimet 2025 alkukevät: (https://terokarvinen.com/linux-palvelimet/)
 
-https://www.youtube.com/watch?v=Tc_jntovCM0
+Karvinen, Tero 2020: Command Line Basics Revisited: (https://terokarvinen.com/2020/command-line-basics-revisited/)
 
-https://man7.org/linux/man-pages/man1/grep.1.html
+Learn Linux Tv 2022: Linux Crash Course - The grep Command, Videolinkki: (https://www.youtube.com/watch?v=Tc_jntovCM0)
 
-https://www.geeksforgeeks.org/piping-in-unix-or-linux/
+Kerrisk, Michael 2025: grep(1) — Linux manual page : (https://man7.org/linux/man-pages/man1/grep.1.html)
 
+Geeks For Geeks 2024: Piping in Unix or Linux: (https://www.geeksforgeeks.org/piping-in-unix-or-linux/)
