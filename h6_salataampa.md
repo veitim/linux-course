@@ -121,7 +121,7 @@ Valmis 23.00
 
 ### Lähteet:
 
-Karvinen, Tero 2025: Linux Palvelimet 2025 alkukevät: (https://terokarvinen.com/linux-palvelimet/)
+Karvinen, Tero 2025: Linux Palvelimet 2025 alkukevät - h6 Salataampa: (https://terokarvinen.com/linux-palvelimet/)
 
 Lets encrypt 2024: How it works: (https://letsencrypt.org/how-it-works/)
 
