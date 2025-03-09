@@ -1,5 +1,6 @@
 ## h5_nimekäs
 Tämä raportti on tehty 24.2.2025
+Lähdeluetteloa päivitetty 9.3.2025
 
 Tämän tehtävän aloituksessa oli lievästi ongelmia, sillä palvelimeni oli kadonnut upcloudista (krediitit olivat loppuneet, niin oletan tästä syystä tämän kadonneen) , joten jouduin tekemaan h4-tehtävän uudestaan. Ja vielä ilokseni namecheap palvelu, mitä halusin tätä tehtävää tehdessä käyttää oli huollettavana, mikä esti domainin vuokraamisen.
 
@@ -103,6 +104,12 @@ AAAA-tietue youtube.com näyttää IPv6 osoitteen.
 
 ### Lähteet
 
-https://terokarvinen.com/linux-palvelimet/
-https://www.howtogeek.com/663056/how-to-use-the-dig-command-on-linux/
-https://www.linux.fi/wiki/Etusivu
+Karvinen, Tero: (Linux Palvelimet 2025 alkukevät: https://terokarvinen.com/linux-palvelimet/)
+
+McKay, Dave 2024: (https://www.howtogeek.com/663056/how-to-use-the-dig-command-on-linux/)
+
+Linux.fi: (https://www.linux.fi/wiki/Etusivu)
+
+Namecheap, INC: (https://www.namecheap.com/)
+
+Karvinen, Tero 2012: (https://terokarvinen.com/2012/short-html5-page/)
