@@ -169,7 +169,7 @@ Lähti toimimaan. Kokeilin vielä selaimella sekä puhelimella kirjaamalla IP-os
 Mitä tästä opin on se, että tee pieni pala kerralla ja testaa tämän toiminta heti.
 
 ### Lähteet
-Karvinen, Tero 2025: Linux Palvelimet 2025 alkukevät: (https://terokarvinen.com/linux-palvelimet/)
+Karvinen, Tero 2025: Linux Palvelimet 2025 alkukevät - h4 Maailma Kuulee: (https://terokarvinen.com/linux-palvelimet/)
 
 Karvinen, Tero 2017: First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS: (https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/)
 
